@@ -23,7 +23,7 @@ title: Publications
   <ul>
   {% for pub in site.data.publications %}
     <li>
-      {{pub.authors}} ({{pub.year}}) {{pub.title}} {{pub.journal}} {{pub.doi}}
+      {{pub.authors}} ({{pub.year}}) {{pub.title}} {{pub.journal}} {{% if pub.withdoi %}}[{{pub.doi}}] {{% endif %}}
     </li>
   {% endfor %}
   </ul>
