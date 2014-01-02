@@ -35,11 +35,14 @@ title: Faculty
       {% endif %}
       {% endfor %}
 
+
+      <table>
       {% tablerow person in site.data.people cols:1%}
 
       {{person.name}}
       
       {% endtablerow %}
+      </table>
 
 			<div class="clearer"></div>
 		</div><!-- End content -->
