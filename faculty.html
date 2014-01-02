@@ -37,8 +37,8 @@ title: Faculty
 
 
       <table>
-      {% tablerow person in site.data.people cols:1%}{% if person.status == "faculty" %}
-      {{person.name}}
+      {% tablerow person in site.data.people cols:1 %}{% if person.status == "faculty" %}
+        <img src={{person.pic}} width="170" height="170">
       </td><td>
         {{person.name}}
       {% endif %}{% endtablerow %}
