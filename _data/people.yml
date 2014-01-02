@@ -8,7 +8,7 @@
   phone: +1 215-204-3307
   fax: +1 215-204-3326
   email: pilelkes@temple.edu
-  pic: "people/LelkesPeter.jpg"
+  pic: "img/people/LelkesPeter.jpg"
   contact: true
   status: faculty
 
@@ -18,9 +18,105 @@
   phone: +1 215-204-3426
   fax: +1 215-204-3326
   email: yahel@temple.edu
-  pic: "people/HarelYahel.jpg"
+  pic: "img/people/HarelYahel.jpg"
   contact: true
   status: faculty
 
-- name: Blah
-  status: not
+- name: Helen Freitas
+  pic: "img/people/FreitasHelen.jpg"
+  status: staff
+
+- name: Collin Stabler
+  status: phdstudent
+
+- name: Robert Redden
+  status: phdstudent
+  
+- name: Seda Karamil
+  status: phdstudent
+  
+- name: Jessica Falcon
+  status: phdstudent
+  
+- name: Sean Devlin
+  status: phdstudent
+
+- name: Sogol Baharlou
+  status: phdstudent
+  
+- name: Azadeh Timnak
+  status: phdstudent
+  
+- name: Jonathan Gerstenhaber
+  status: phdstudent
+  
+- name: Ross Brodsky
+  status: phdstudent
+  
+- name: Alexis Rylander
+  status: bsstudent
+  
+- name: Mario Mata
+  status: bsstudent
+  
+- name: Moustafa Barakat
+  status: bsstudent
+
+- name: Adrianna Urbano
+  status: bsstudent
+
+- name: Luiz Carlos de Caires Júnior
+  status: visitingresearcher
+
+- name: Camila Manso Musso
+  status: visitingresearcher
+  
+- name: Ayverdi, Asli
+  status: alum
+  graduated:
+  degree:
+
+- name: Botta, Gregory P.
+  status: alum
+  graduated: 2012?
+  degree: PhD Molecular and Cellular Biology & Genetics, MD Candidate 
+
+- name: Frohbergh, Michael
+  status: alum
+  graduated: 2013
+  degree: PhD Biomedical Engineering
+
+- name: Senel, Gozde
+  status: alum
+  graduated: 2013?
+  degree: PhD Biomedical Engineering 
+
+- name: Han, Jingjia
+  status: alum
+  graduated: 2012
+  degree: PhD Biomedical Engineering 
+
+- name: Pimchanok Pimton (Mie)
+  status: alum
+  graduated: 2013
+  degree: PhD Biomedical Engineering  
+
+- name: Patrick Haibo Gong
+  status: alum
+  graduated:
+  degree:
+
+- name: Aybike Saglam
+  status: alum
+  graduated: 2010
+  degree: M.S. Biomedical Engineering
+                
+- name: Haiyan (Tracy) Zhu
+  status: alum
+  graduated: 2012
+  degree: M.S. Textile Engineering from Philadelphia University
+  
+- name: Patrick Thompson
+  status: alum
+  graduated: 2013
+  degree: M.S. Biomedical Engineering
