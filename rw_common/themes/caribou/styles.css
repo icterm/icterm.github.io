@@ -1138,3 +1138,8 @@ label{
 .form-input-button { 
 } 
 /* @end */
+
+
+table td, table td * {
+    vertical-align: top;
+}

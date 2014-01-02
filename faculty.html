@@ -38,7 +38,7 @@ title: Faculty
 
       <table>
       {% tablerow person in site.data.people cols:1 %}{% if person.status == "faculty" %}
-        <img align="top" class="imageStyle" src={{person.pic}} width="170" height="170">
+        <img src={{person.pic}} width="170" height="170">
       </td><td>
         <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
         <span style="font:15px Calibri;">{{person.title}}<br>
