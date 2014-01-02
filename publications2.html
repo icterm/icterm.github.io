@@ -25,6 +25,7 @@ title: Publications
     <li>
       {{pub.authors}} ({{pub.year}}) {{pub.title}}
       {% if pub.journal != null %} {{pub.journal}} {% endif %}
+      {% if pub.in != null %} in: {{pub.in}} {% endif %}
       {% if pub.doi != null %} doi: {{pub.doi}} {% endif %}
     </li>
   {% endfor %}
