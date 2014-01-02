@@ -20,11 +20,11 @@ title: Faculty
 
       {% for person in site.data.people %}
       {% if person.status == "faculty" %}
+      <div class="image-right">
+        <img class="imageStyle" src={{person.pic}} width="170" height="170">
+      </div>
       <p>
-        <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span>
-        <div class="image-right">
-          <img class="imageStyle" src={{person.pic}} width="170" height="170">
-        </div>
+        <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
         <span style="font:15px Calibri;">{{person.title}}<br>
           Office: {{person.office}}<br>
           Phone: {{person.phone}}<br>
@@ -34,6 +34,12 @@ title: Faculty
       </p>
       {% endif %}
       {% endfor %}
+
+      {% tablerow person in site.data.people cols:1%}
+
+      {{person.name}}
+      
+      {% endtablerow %}
 
 <div class="image-left">
   <img class="imageStyle" alt="FAllen" src="files/fallen.jpg" width="138" height="133">
