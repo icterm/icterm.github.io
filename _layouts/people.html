@@ -15,7 +15,7 @@
       <h1> {{page.title}} </h1>
 
       <table cellpadding="25">
-      {% tablerow person in site.data.people cols:1 %}a {{page.tag}} {% if person.status == "{{page.tag}}" %}
+      {% tablerow person in site.data.people cols:1 %}a {{person.status}} {{page.tag}} {% if person.status == "{{page.tag}}" %}
         <img src={{person.pic}} width="170" height="170">
         </td><td>
         <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
