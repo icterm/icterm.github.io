@@ -21,3 +21,6 @@
   pic: "people/HarelYahel.jpg"
   contact: true
   status: faculty
+
+- name: Blah
+  status: not

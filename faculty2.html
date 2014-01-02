@@ -18,7 +18,7 @@ title: Faculty
 
 
       {% for person in site.data.people %}
-
+      {% if person.status == "faculty" %}
       <div class="image-right">
         <img class="imageStyle" src={{person.pic}} width="170" height="170">
       </div>
@@ -30,7 +30,7 @@ title: Faculty
           Fax: {{person.fax}}<br><br>
         <a href="assets/PIL%20CVBio%20for%20Web.pdf" rel="self">bio</a>|<a href="publications.html" rel="self" title="Publications">research and publications</a>|<a href="mailto:{{person.email}}">contact</a><br><br><br></span>
       </p>
-
+      {% endif %}
       {% endfor %}
 
 <div class="image-left">
