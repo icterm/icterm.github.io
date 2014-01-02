@@ -1,4 +1,5 @@
 - name: Peter I. Lelkes, PhD
+  status: faculty
   title:  Fellow, American Institute for Medical & Biological Engineering <br/>
           Laura H. Carnell Professor and Chair, Dept. Bioengineering, College of Engineering <br/>
           Director, Temple Institute for Regenerative Medicine and Engineering (TIME) <br/>
@@ -10,9 +11,9 @@
   email: pilelkes@temple.edu
   pic: "img/people/LelkesPeter.jpg"
   contact: true
-  status: faculty
 
 - name: Yah-el Har-el, PhD
+  status: faculty
   title: Assistant Research Professor, College of Engineering
   office: Engineering Building, room 812
   phone: +1 215-204-3426
@@ -20,11 +21,14 @@
   email: yahel@temple.edu
   pic: "img/people/HarelYahel.jpg"
   contact: true
-  status: faculty
 
 - name: Helen Freitas
-  pic: "img/people/FreitasHelen.jpg"
   status: staff
+  title: Senior Lab Manager
+  office: Engineering Building, room 825
+  phone: +1 215-204-6709
+  fax: +1 215-204-6936
+  pic: "img/people/FreitasHelen.jpg"
 
 - name: Collin Stabler
   status: phdstudent
@@ -120,3 +124,30 @@
   status: alum
   graduated: 2013
   degree: M.S. Biomedical Engineering
+  
+- name: Gaurav Goyal
+  status: alum
+  
+- name: Zhiling Zhang
+  status: alum
+  
+- name: Rajarshi Ganguly
+  status: alum
+
+- name: Timothy Connors
+  status: alum
+  
+- name: Krystle Gaco
+  status: alum
+  
+- name: Rona Wilf
+  status: alum
+  
+- name: Alex Plushanki
+  status: alum
+  
+- name: Jessica Franklin
+  status: alum
+  
+- name: Thomas Sweeney
+  status: alum

@@ -16,6 +16,7 @@ title: Faculty
 		<div id="content"><!-- Start content -->
 			<div class="contentSpacer"></div><!-- this makes sure the content is long enough for the design -->
 
+      <h1> Faculty
 
       {% for person in site.data.people %}
       {% if person.status == "faculty" %}
@@ -27,8 +28,9 @@ title: Faculty
         <span style="font:15px Calibri;">{{person.title}}<br>
           Office: {{person.office}}<br>
           Phone: {{person.phone}}<br>
-          Fax: {{person.fax}}<br><br>
-        <a href="assets/PIL%20CVBio%20for%20Web.pdf" rel="self">bio</a>|<a href="publications.html" rel="self" title="Publications">research and publications</a>|<a href="mailto:{{person.email}}">contact</a><br><br><br></span>
+          Fax: {{person.fax}}<br>
+          Email: <a href="mailto:{{person.email}}">{{person.email}}</a>
+        </span>
       </p>
       {% endif %}
       {% endfor %}
