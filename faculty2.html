@@ -16,18 +16,23 @@ title: Faculty
 		<div id="content"><!-- Start content -->
 			<div class="contentSpacer"></div><!-- this makes sure the content is long enough for the design -->
 
-<div class="image-left">
-  <img class="imageStyle" alt="PIL3" src="people/LelkesPeter.jpg" width="138" height="133">
-</div>
-<p>
-  <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">Peter I. Lelkes, Ph.D.<br></span>
-  <span style="font:15px Calibri;">Calhoun Chair Professor &nbsp;of Cellular Tissue Engineering, School of Biomedical Engineering, Science, and Health Systems, Drexel University<br>
-  Director, Clinical Engineering Enterprise (CEE), Drexel University College of Medicine<br>
-  Office: 14309 New College Building, 245 N 15th Street, Philadelphia, PA 19102<br>
-  Phone: 215-762-2071<br>
-  Fax: 215-762-3150<br><br>
-  <a href="assets/PIL%20CVBio%20for%20Web.pdf" rel="self">bio</a>|<a href="publications.html" rel="self" title="Publications">research and publications</a>|<a href="mailto:pil22@drexel.edu">contact</a><br><br><br>
-</p>
+
+      {% for person in site.data.people %}
+
+      <div class="image-left">
+        <img class="imageStyle" alt="PIL3" src={{person.pic}} width="138" height="133">
+      </div>
+      <p>
+        <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
+        <span style="font:15px Calibri;">{{person.title}}<br>
+          Office: {{person.office}}<br>
+          Phone: {{person.phone}}<br>
+          Fax: {{person.fax}}<br><br>
+        <a href="assets/PIL%20CVBio%20for%20Web.pdf" rel="self">bio</a>|<a href="publications.html" rel="self" title="Publications">research and publications</a>|<a href="mailto:{{person.email}}">contact</a><br><br><br></span>
+      </p>
+
+      {% endfor %}
+
 <div class="image-left">
   <img class="imageStyle" alt="FAllen" src="files/fallen.jpg" width="138" height="133">
 </div>
