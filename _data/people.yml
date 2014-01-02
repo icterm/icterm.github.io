@@ -1,0 +1,23 @@
+- name: Peter I. Lelkes, PhD
+  title:  Fellow, American Institute for Medical & Biological Engineering <br/>
+          Laura H. Carnell Professor and Chair, Dept. Bioengineering, College of Engineering <br/>
+          Director, Temple Institute for Regenerative Medicine and Engineering (TIME) <br/>
+          Professor of Surgery, Temple School of Medicine, Department of Surgery <br/>
+          Professor of Cancer Biology,  Fox Chase Cancer Center
+  office: Engineering Building, room 811
+  phone: +1 215-204-3307
+  fax: +1 215-204-3326
+  email: pilelkes@temple.edu
+  pic: "people/LelkesPeter.jpg"
+  contact: true
+  status: faculty
+
+- name: Yah-el Har-el, PhD
+  title: Assistant Research Professor, College of Engineering
+  office: Engineering Building, room 812
+  phone: +1 215-204-3426
+  fax: +1 215-204-3326
+  email: yahel@temple.edu
+  pic: "people/HarelYahel.jpg"
+  contact: true
+  status: faculty
