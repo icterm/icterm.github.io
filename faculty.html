@@ -37,11 +37,10 @@ title: Faculty
 
 
       <table>
-      {% tablerow person in site.data.people cols:1%}
-
+      {% tablerow person in site.data.people cols:2%}{% if person.status == "faculty" %}
       {{person.name}}
       
-      {% endtablerow %}
+      {% endif %}{% endtablerow %}
       </table>
 
 			<div class="clearer"></div>
