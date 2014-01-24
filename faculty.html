@@ -1,5 +1,56 @@
 ---
 title: Faculty
-layout: people
-tag: faculty
 ---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% include head.html %}    
+
+<body>
+<div id="bar"></div>
+<div id="container"><!-- Start container -->
+
+  {% include header.html %}
+	
+	<div id="contentContainer"><!-- Start main content wrapper -->
+		<div id="content"><!-- Start content -->
+			<div class="contentSpacer"></div><!-- this makes sure the content is long enough for the design -->
+
+      <h1> {{page.title}} </h1>
+
+      <table cellpadding="25">
+      {% tablerow person in site.data.faculty cols:1 %}
+        <img src={{person.pic}} width="170" height="170">
+        </td><td>
+        <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
+        <span style="font:15px Calibri;">{{person.title}}<br>
+          Office: {{person.office}}<br>
+          Phone: {{person.phone}}<br>
+          Fax: {{person.fax}}<br>
+          Email: <a href="mailto:{{person.email}}">{{person.email}}</a>
+        </span>
+      {% endtablerow %}
+      </table>
+
+			<div class="clearer"></div>
+		</div><!-- End content -->
+		
+	</div><!-- End main content wrapper -->
+	
+	<div id="sidebarContainer"><!-- Start Sidebar wrapper -->
+		<div id="sidebar"><!-- Start sidebar content -->
+		<div class="sideHeader">Home</div><!-- Sidebar header --> 
+			<!-- sidebar content you enter in the page inspector -->
+			 <!-- sidebar content such as the blog archive links -->
+		</div><!-- End sidebar content -->
+	</div><!-- End sidebar wrapper -->
+	
+	<div class="clearer"></div>
+	
+</div><!-- End container -->
+
+<div class="clearer"></div>
+
+  {% include footer.html %}
+  </body>
+</html>
