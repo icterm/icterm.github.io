@@ -16,12 +16,11 @@ title: Faculty
 		<div id="content"><!-- Start content -->
 			<div class="contentSpacer"></div><!-- this makes sure the content is long enough for the design -->
 
-      <h1> {{page.title}} </h1>
+      <h1> Faculty </h1>
 
       <table cellpadding="25">
-      {% tablerow person in site.data.people cols:1 %}
-      {% if person.status == "faculty" %}
-			  <img src={{person.pic}} width="170" height="170">
+      {% tablerow person in site.data.people cols:1 %}{% if person.status == "faculty" %}
+        <img src={{person.pic}} width="170" height="170">
         </td><td>
         <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
         <span style="font:15px Calibri;">{{person.title}}<br>
@@ -30,8 +29,7 @@ title: Faculty
           Fax: {{person.fax}}<br>
           Email: <a href="mailto:{{person.email}}">{{person.email}}</a>
         </span>
-			{% endif %}
-      {% endtablerow %}
+      {% endif %}{% endtablerow %}
       </table>
 
 			<div class="clearer"></div>
