@@ -19,17 +19,30 @@ title: Publications
   <span style="font:14px Calibri;"><a name="top" id="top"></a><br></span>
 </p>
 <p style="text-align:justify;">
-  
-  <ul>
+
   {% for pub in site.data.publications %}
-    <li>
-      {{pub.authors}} ({{pub.year}}) {{pub.title}}
-      {% if pub.journal != null %}. {{pub.journal}} {% endif %}
+    <p>
+      {% if pub.type == "article" %} 
+        {{pub.authors}} 
+        ({{pub.year}}) 
+        <b>{{pub.title}}.</b> 
+        {{pub.journal}} 
+        {% if pub.doi != null %}<a href=http://dx.doi.org/{{pub.doi}}>{{pub.doi}}</a> {% endif %}
+        {% if pub.web != null %}<a href={{pub.web}}>Abstract</a> {% endif %}
+        {% if pub.pdf != null %}<a href={{pub.pdf}}>PDF</a> {% endif %}
+      {% endif %}
+
+      {% if pub.type == "chapter" %} 
+        {{pub.authors}} 
+        ({{pub.year}}) 
+        {{pub.title}} 
+      {% endif %}
+      
+      <!-- {% if pub.journal != null %}. {{pub.journal}} {% endif %}
       {% if pub.in != null %}, in: {{pub.in}} {% endif %}
-      {% if pub.doi != null %} doi: {{pub.doi}} {% endif %}
-    </li>
+      {% if pub.doi != null %} doi: {{pub.doi}} {% endif %} -->
+    </p>
   {% endfor %}
-  </ul>
   
 </p>
 
