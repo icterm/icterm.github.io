@@ -6,7 +6,15 @@ title: Publications
 
 {% include menu.html %}	
 
-{% include footer.html %}      {{pub.authors}} 
+			<p>
+  <span style="font:14px Calibri;"><a name="top" id="top"></a><br></span>
+</p>
+<p style="text-align:justify;">
+
+  {% for pub in site.data.publications %}
+    <p>
+      {% if pub.type == "article" %} 
+        {{pub.authors}} 
         ({{pub.year}}) 
         <b>{{pub.title}}.</b> 
         {{pub.journal}} 
