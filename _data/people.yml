@@ -76,32 +76,32 @@
 - name: Camila Manso Musso
   status: visitingresearcher
   
-- name: Ayverdi, Asli
+- name: Asli Ayverdi
   status: alum
   graduated:
   degree:
 
-- name: Botta, Gregory P.
+- name: Gregory P. Botta
   status: alum
   graduated: 2012?
   degree: PhD Molecular and Cellular Biology & Genetics, MD Candidate 
 
-- name: Frohbergh, Michael
+- name: Michael Frohbergh
   status: alum
   graduated: 2013
   degree: PhD Biomedical Engineering
 
-- name: Senel, Gozde
+- name: Gozde Senel
   status: alum
   graduated: 2013?
   degree: PhD Biomedical Engineering 
 
-- name: Han, Jingjia
+- name: Jingjia Han
   status: alum
   graduated: 2012
   degree: PhD Biomedical Engineering 
 
-- name: Pimchanok Pimton (Mie)
+- name: Pimchanok (Mie) Pimton 
   status: alum
   graduated: 2013
   degree: PhD Biomedical Engineering  
