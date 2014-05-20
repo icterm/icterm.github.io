@@ -2,19 +2,10 @@
 title: Staff
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 {% include head.html %}    
 
-<body>
-<div id="bar"></div>
-<div id="container"><!-- Start container -->
-
-  {% include header.html %}
+{% include menu.html %}
 	
-	<div id="contentContainer"><!-- Start main content wrapper -->
-		<div id="content"><!-- Start content -->
-			<div class="contentSpacer"></div><!-- this makes sure the content is long enough for the design -->
 			<p style="text-align:justify;">
   <span style="font:15px Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#608B32;font-weight:bold;">STAFF<br></span>
 </p>
@@ -47,25 +38,4 @@ title: Staff
   <br></span><span style="font:15px Calibri;"><a href="http://www.tantridesign.com" rel="self">bio</a></span> <span style="font:15px Calibri;">|</span> <span style="font:15px Calibri;"><a href="mailto:tantridc@gmail.com" rel="self">contact</a></span><span style="font:15px Calibri;"><br></span>
 </p>
 
-			<div class="clearer"></div>
-		</div><!-- End content -->
-		
-	</div><!-- End main content wrapper -->
-	
-	<div id="sidebarContainer"><!-- Start Sidebar wrapper -->
-		<div id="sidebar"><!-- Start sidebar content -->
-		<div class="sideHeader">Home</div><!-- Sidebar header --> 
-			<!-- sidebar content you enter in the page inspector -->
-			 <!-- sidebar content such as the blog archive links -->
-		</div><!-- End sidebar content -->
-	</div><!-- End sidebar wrapper -->
-	
-	<div class="clearer"></div>
-	
-</div><!-- End container -->
-
-<div class="clearer"></div>
-
-  {% include footer.html %}
-  </body>
-</html>
+{% include footer.html %}
