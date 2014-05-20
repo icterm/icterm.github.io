@@ -8,7 +8,7 @@ title: Faculty
 
       <h1> {{page.title}} </h1>
 
-      
+      {{site.people}}
 
       <table cellpadding="25">
       {% for person in site.people cols:1 %}{% if person.status == "faculty" %}
