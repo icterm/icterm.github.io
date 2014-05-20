@@ -1,0 +1,27 @@
+---
+title: Faculty
+---
+
+{% include head.html %}    
+
+{% include menu.html %}	
+
+      <h1> {{page.title}} </h1>
+
+      <table cellpadding="25">
+      {% for person in site.data.people cols:1 %}{% if person.status == "faculty" %}
+				<tr><td>
+        <img src={{person.pic}} width="170" height="170">
+        </td><td>
+        <span style="font:14px LucidaSans-Demi; font-weight:bold; font-weight:bold;">{{person.name}}</span><br>
+        <span style="font:15px Calibri;">{{person.title}}<br>
+          Office: {{person.office}}<br>
+          Phone: {{person.phone}}<br>
+          Fax: {{person.fax}}<br>
+          Email: <a href="mailto:{{person.email}}">{{person.email}}</a>
+        </span>
+			</td></tr>
+      {% endif %}{% endfor %}
+      </table>
+
+{% include footer.html %}

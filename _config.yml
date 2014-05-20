@@ -1,4 +1,8 @@
 markdown: kramdown
 
 collections:
-- people
+  - people
+#remove dash above and add colon at the end of the line if you want to activate any of the options below
+#    layout: people
+#    output: true
+
