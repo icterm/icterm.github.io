@@ -1,4 +1,4 @@
---
+---
 name: Peter I. Lelkes, PhD
 status: faculty
 title:  Fellow, American Institute for Medical & Biological Engineering <br/>
@@ -12,4 +12,4 @@ fax: +1 215-204-3326
 email: pilelkes@temple.edu
 pic: "img/people/LelkesPeter.jpg"
 contact: true
---
+---
