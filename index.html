@@ -2,23 +2,9 @@
 title: i-CTERM Lab
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 {% include head.html %}
 
-<link href="css/greeting.css" rel="stylesheet" media="screen" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-<script src="js/greeting.js" type="text/javascript"></script>
-<script src="js/cookie.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function() {$(".reset").click(function() {$.cookie("greeting", null);});});
-</script>
-
-<body>
-<div id="bar"></div>
-<div id="container"><!-- Start container -->
-
-  {% include header.html %}
+{% include menu.html %}
 
 	<div id="contentContainer"><!-- Start main content wrapper -->
 		<div id="content"><!-- Start content -->
@@ -84,80 +70,4 @@ The laboratories of the cellular tissue-engineering and regenerative medicine gr
 
 </table>
     
-</div><!-- End main content wrapper -->
-	
-<div id="sidebarContainer"><!-- Start Sidebar wrapper -->
-	<div id="sidebar"><!-- Start sidebar content -->
-		<div class="sideHeader">
-<!--
-			<div id="cse" style="width: 100%;">
-				<div class="gsc-control-cse gsc-control-cse-en" dir="ltr">
-					<form class="gsc-search-box" accept-charset="utf-8">
-						<table cellspacing="0" cellpadding="0" class="gsc-search-box">
-							<tbody>
-								<tr>
-									<td class="gsc-input">
-										<input autocomplete="off" type="text" size="10" class=" gsc-input" name="search" title="search" style="background-image: url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif); background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255); background-position: 0% 50%; background-repeat: no-repeat no-repeat; ">
-									</td>
-									<td class="gsc-search-button">
-										<input type="submit" value="Search" class="gsc-search-button" title="search">
-									</td>
-									<td class="gsc-clear-button">
-										<div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="https://www.google.com/uds/css/small-logo.png" class="gsc-branding-img"></td></tr></tbody></table></form><div class="gsc-tabsAreaInvisible"><div class="gsc-tabHeader gsc-tabhActive">Custom Search Control</div><span class="gs-spacer"> </span></div><div class="gsc-tabsAreaInvisible"></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><table cellspacing="0" cellpadding="0" class="gsc-resultsHeader"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Web</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div class="gsc-result-selector gsc-one-result" title="show one result">&nbsp;</div><div class="gsc-result-selector gsc-more-results" title="show more results">&nbsp;</div><div class="gsc-result-selector gsc-all-results" title="show all results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div class="gsc-results gsc-webResult"></div></div></div></div></div></div>
-<script src="./rw_common/themes/caribou/images//jsapi" type="text/javascript"></script>
-<script type="text/javascript">
-  google.load('search', '1', {language : 'en'});
-  google.setOnLoadCallback(function() {
-    var customSearchControl = new google.search.CustomSearchControl('010633865465467751202:a_vzrpw1qh8');
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    customSearchControl.draw('cse');
-  }, true);
--->
-<!-- </script><script src="./rw_common/themes/caribou/images//saved_resource(1)" type="text/javascript"></script><link href="./rw_common/themes/caribou/images//default+en.css" type="text/css" rel="stylesheet"><script src="./rw_common/themes/caribou/images//default+en.I.js" type="text/javascript"></script> -->
-<link rel="stylesheet" href="./rw_common/themes/caribou/images/default.css" type="text/css">        		
-</div><!-- Sidebar header --> 
-
-<p style="font:12.5px Calibri, Arial, Verdana, Helvetica, sans-serif; text-align:left; color:#000000">
-<span style="font:15px Calibri, Arial, Verdana, Helvetica, sans-serif; font-weight:bold; color:#608B32;">Announcements</span>
-<br/><br/>
-
-Congratulations to Anat and Uri Katsir on the birth of a girl, Tamar Katsir, on July 7, 2011! 
-<br/><br/>
-
-Congratulations to Diane Keene and Brian Kambach on the birth of a girl, Rachel Catherine Kambach, on May 15, 2011! 
-<br/><br/>
-
-Collin Stabler, PhD student,  was awarded a fellowship from the NASA Graduate Student Research Program on the topic of "Enhanced Differentiation of Mouse Embryonic Stem Cells in NASA-Developed Rotating Wall Vessel (RWV) for Pulmonary Tissue Engineering and Regenerative Medicine". The fellowship includes ten weeks each year working at the Johnson Space Center in Houston TX with the inventor of the RWV, Dr. David Wolf. 
-<br/><br/>
-
-Gregory Botta, MD/PhD student, received a graduate award to attend the meeting of Nobel Laureates in Lindau, Germany this summer. Since 1951, Nobel Laureates in chemistry, physics, and physiology/medicine convene annually in Lindau, Germany, to have open and informal meetings with students and young researchers. 
-<br/>
-[<a href="http://www.drexel.edu/fellowships/about/newsevents/news-11-02-10/">read more</a>]
-<br/><br/>
-
-Gregory Botta, MD/PhD student, chaired the 2011 Joint Meeting between the American Physician Scientists Association (APSA), American Society for Clinical Investigation (ASCI), and the Association of American Physicians (AAP) in Chicago, Illinois. Greg will continue his APSA leadership in 2012 as the Member-at-Large for MD/PhD’s.
-<br/>
-[<a href="http://www.physicianscientists.org/meetings/annual/2011">read more</a>]
-<br/><br/>
-
-BIOMED team awarded $10 million from Wallace H. Coulter Foundation to endow the Coulter Translational Research Partnership Program, together with Duke, Michigan, Stanford and Virginia. One of the final push that contributes to the success of Coulter's support is their recent visit to BIOMED and i-CTERM laboratories in DUCoM.  
-<br/>
-[<a href="./page30/page41/page41.html" rel="self" title="Coulter Site Visit 2010">see site visit pictures</a>]
-<br/><br/>
-
-[<span style="font:14px Calibri; "><a href="./page30/page30.html" rel="self" title="New &amp; Events">Past news and events</a>]
-
-<!-- sidebar content you enter in the page inspector -->
-			 <!-- sidebar content such as the blog archive links -->
-		</span></p></div><!-- End sidebar content -->
-	</div><!-- End sidebar wrapper -->
-	
-	<div class="clearer"></div>
-	
-</div><!-- End container -->
-
-<div class="clearer"></div>
-
-  {% include footer.html %}
-  </body>
-</html>
+{% include footer.html %}
