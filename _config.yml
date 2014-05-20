@@ -1,7 +1,5 @@
 markdown: kramdown
 
 collections:
-  - people
-#    layout: people
+  people:
     output: true
-
