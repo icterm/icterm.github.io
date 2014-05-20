@@ -11,7 +11,7 @@ title: Faculty
       {{site.people}}
 
       <table cellpadding="25">
-      {% for person in site.people cols:1 %}{% if person.status == "faculty" %}
+      {% for person in site.people %}{% if person.status == "faculty" %}
 				<tr><td>
         <img src={{person.pic}} width="170" height="170">
         </td><td>
