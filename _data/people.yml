@@ -14,12 +14,22 @@
 
 - name: Yah-el Har-el, PhD
   status: faculty
-  title: Assistant Research Professor, College of Engineering
+  title: Assistant Research Professor, Bioengineering
   office: Engineering Building, room 812
   phone: +1 215-204-3426
   fax: +1 215-204-3326
   email: yahel@temple.edu
   pic: "img/people/HarelYahel.jpg"
+  contact: true
+
+- name: Cezary Marcinkeiwicz
+  status: faculty
+  title: Associate Research Professor, Bioengineering
+  office: Engineering Building, room 810
+  phone: +1 215-204-3301
+  fax: +1 215-204-3326
+  email: cmarcink@temple.edu
+  pic: "img/people/MarcinkeiwiczCezary.jpg"
   contact: true
 
 - name: Helen Freitas
