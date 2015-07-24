@@ -3,115 +3,132 @@
   <head>
     <meta charset="utf-8">
     <title>iCTERM | Bioengineering Department | Temple University</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/ico/favicon.png">
   </head>
 
-  <body>
-	<div class="navbar-wrapper">
-		<div class="container">
-			<div class="navbar navbar-inverse">
-				<div class="navbar-inner">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="brand" href="#">iCTERM</a>
 
-					<div class="nav-collapse collapse">
-						<ul class="nav pull-right">
-							<li><a href="../index.html">Temple Bioengineering</a></li>
-							<li><a href="index.html">iCTERM Home</a></li>
-							<li class="dropdown active">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="dr-lelkes.html">Dr Peter I. Lelkes</a></li>
-									<li class="disabled"><a href="#">Goal and mission</a></li>
-									<li><a href="publications.html">Publications</a></li>
-									<li><a href="contact.html">Contact us</a></li>
-									<li><a href="academic-program.html">Academic program</a></li>
-								</ul> <!-- /.dropdown-menu -->
-							</li> <!-- /.dropdown -->
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">iCTERM</a>
+    </div>
 
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="current-research.html">Current research</a></li>
-									<li><a href="facilities.html">Facilities</a></li>
-									<li><a href="grants.html">Grants and awards</a></li>
-									<li><a href="collaborations.html">Collaborations and partnerships</a></li>
-									<li><a href="funding.html">Funding opportunities</a></li>
-								</ul> <!-- /.dropdown-menu -->
-							</li> <!-- /.dropdown -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">People <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="faculty.html">Faculty</a></li>
-									<li class="disabled"><a href="#">Visiting scholars</a></li>
-									<li class="disabled"><a href="#">Postdoctoral fellows</a></li>
-									<li class="disabled"><a href="#">Staff</a></li>
-									<li class="disabled"><a href="#">Students</a></li>
-									<li class="disabled"><a href="#">Alumni</a></li>
-								</ul> <!-- /.dropdown-menu -->
-							</li> <!-- /.dropdown -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">Temple Bioengineering</a></li>
 
-							<li><a href="news.html">News</a></li>
-			
-						</ul> <!-- /.nav -->
-					</div> <!--/.nav-collapse -->
-				</div><!-- /.navbar-inner -->
-			</div>  <!-- /.navbar -->
-		</div> <!-- /.container -->
-	</div> <!-- /.navbar-wrapper -->
+        <li ><a href="index.html">iCTERM Home</a></li>
+
+        <li class="dropdownactive">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Lab <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="dr-lelkes.html">Dr Peter I. Lelkes</a></li>
+            <li class="disabled"><a href="#">Goal and mission</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li class="disabled"><a href="contact.html">Contact us</a></li>
+            <li class="disabled"><a href="academic-program.html">Academic program</a></li>
+          </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.dropdown -->
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="disabled"><a href="current-research.html">Current research</a></li>
+            <li class="disabled"><a href="facilities.html">Facilities</a></li>
+            <li><a href="grants.html">Grants and awards</a></li>
+            <li class="disabled"><a href="collaborations.html">Collaborations and partnerships</a></li>
+            <li class="disabled"><a href="funding.html">Funding opportunities</a></li>
+          </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.dropdown -->
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="faculty.html">Faculty</a></li>
+            <li class="disabled"><a href="#">Visiting scholars</a></li>
+            <li class="disabled"><a href="#">Postdoctoral fellows</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li class="disabled"><a href="#">Alumni</a></li>
+          </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.dropdown -->
+
+        <li ><a href="news.html">News</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div class="container marketing"
 
 <section>
 
-<h1 class="marketing">Dr. Peter I. Lelkes</h1>
 
+<h1 class="marketing">Dr Peter I. Lelkes</h1>
 <hr>
 
-<p>Peter I. Lelkes, PhD is the Calhoun Chair Professor of Cellular Tissue Engineering in the School of Biomedical Engineering, Science and Health Systems at Drexel University in Philadelphia with adjunct appointments in the Departments of Mechanical Engineering and Mechanics (CoE) and Pathology, Biochemistry and Surgery (DUCOM). Having spent 12 years at the University of Wisconsin Medical School, Dr. Lelkes assumed his current position at Drexel University in August 2000, where he currently directs an interdisciplinary program in tissue engineering and regenerative medicine, focusing on nanotechnology-based biomaterials and soft tissue engineering, employing developmental biological principles to enhance the tissue-specific differentiation of embryonic and adult stem cells. Dr. Lelkes has organized several Keystone conferences and published more than 150 peer-reviewed papers and 45 book chapters and made more than 400 presentations nationally and internationally.</p>
 
-<p>Dr. Lelkes’s basic and translational research has been support by federal (NIH, NSF, NASA, DOE) and state funding agencies, (NTI and Dept of Commerce, Tobacco Settlement Funds) and private Foundations, including the Coulter Foundation. Most recently, Dr. Lelkes has been named Director of the Surgical Engineering Enterprise, one of the major of initiative of the strategic plan of Drexel University’s College of Medicine. In addition, Dr. Lelkes has been the team leader for tissue engineering at the Nanotechnology Institute of Southeastern Pennsylvania (NTI) and is the Co-Director of PATRIC, the Pennsylvania Advanced Textile Research and Innovation Center, focusing on Bionanotextiles and Stem Cell Biology.</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <p>Peter I. Lelkes, PhD, is the Laura H. Carnell Professor and Founding Chair of the Department of Bioengineering in the College of Engineering at Temple University. Dr. Lelkes is also the Inaugural Director of the Institute for Regenerative Medicine and Engineering (TIME) at Temple University’s School of Medicine. Prior to that he was from 2000-2011 the Calhoun Chair Professor in the School of Biomedical Engineering, Science and Health Systems at Drexel University in Philadelphia, with adjunct appointments in the Departments of Mechanical Engineering and Mechanics and Pathology, Biochemistry and Surgery.</p>
 
-<p>In his “free-time” he is an active chamber musician and likes to hike in the mountains.</p>
+      <p>Dr. Lelkes currently directs an interdisciplinary program in tissue engineering and regenerative medicine, focusing on nanotechnology-based biomaterials and soft tissue engineering, employing developmental biological principles to enhance the tissue-specific differentiation of embryonic and adult stem cells. Dr. Lelkes has organized several Keystone conferences and published more than 150 peer-reviewed papers and 45 book chapters and made more than 400 presentations nationally and internationally.</p>
+
+      <p>Dr. Lelkes has received numerous honors and awards, nationally and internationally. Amongst them a Forchheimer Visiting Fellowship at the Hebrew University, Jerusalem, Honorary Professorships at the University of Applied Sciences Aachen, Germany and the Changchun Institute of Polymer Chemistry and Physics, Chinese Academy of Sciences, and a Distinguished Visiting Fellowship of the Royal Academy of Engineering at Imperial College, London, UK. In 2011 he was inducted as a Fellow of the AIMBE (American Institute for Medical and Biological Engineering) and received the 2012 Ben Franklin Key Award from IEEE, the Institute of Electrical and Electronics Engineers.</p>
+
+      <p>Throughout his career of 30+ years, Dr. Lelkes has received over $18 million in funding from numerous federal and private funding sources. His basic and translational research has been supported by federal (NIH, NSF, NASA, DOE) and state funding agencies (NTI and Dept of Commerce, Tobacco Settlement Funds), as well as private Foundations, including the Coulter Foundation.  Dr. Lelkes has organized several Keystone conferences, published more than 175 peer-reviewed papers, authored more than 50 books / book chapters and made more than 400 presentations nationally and internationally.</p>
+
+      <p>In his free-time Dr. Lelkes is an active chamber musician and likes to hike in the mountains.</p>
+      
+    </div> <!-- col8 -->
+  </div> <!-- row -->
+</div> <!-- container -->
 
 </section>
 
-<hr>
+      <hr>
 
-<footer>
-  <p>Bioengineering Department, Temple University</p>
-</footer>
-      
-</div>
-
+      <footer>
+        <p>Bioengineering Department, Temple University</p>
+      </footer>
+    </div>
 <!--     </div> --> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  </body>
 </html>
+

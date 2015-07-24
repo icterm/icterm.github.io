@@ -3,111 +3,5324 @@
   <head>
     <meta charset="utf-8">
     <title>iCTERM | Bioengineering Department | Temple University</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/ico/favicon.png">
   </head>
 
-  <body>
-	<div class="navbar-wrapper">
-		<div class="container">
-			<div class="navbar navbar-inverse">
-				<div class="navbar-inner">
-					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="brand" href="#">iCTERM</a>
 
-					<div class="nav-collapse collapse">
-						<ul class="nav pull-right">
-							<li><a href="../index.html">Temple Bioengineering</a></li>
-							<li><a href="index.html">iCTERM Home</a></li>
-							<li class="dropdown active">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">The Lab <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="dr-lelkes.html">Dr Peter I. Lelkes</a></li>
-									<li class="disabled"><a href="#">Goal and mission</a></li>
-									<li><a href="publications.html">Publications</a></li>
-									<li><a href="contact.html">Contact us</a></li>
-									<li><a href="academic-program.html">Academic program</a></li>
-								</ul> <!-- /.dropdown-menu -->
-							</li> <!-- /.dropdown -->
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">iCTERM</a>
+    </div>
 
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="current-research.html">Current research</a></li>
-									<li><a href="facilities.html">Facilities</a></li>
-									<li><a href="grants.html">Grants and awards</a></li>
-									<li><a href="collaborations.html">Collaborations and partnerships</a></li>
-									<li><a href="funding.html">Funding opportunities</a></li>
-								</ul> <!-- /.dropdown-menu -->
-							</li> <!-- /.dropdown -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">People <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="faculty.html">Faculty</a></li>
-									<li class="disabled"><a href="#">Visiting scholars</a></li>
-									<li class="disabled"><a href="#">Postdoctoral fellows</a></li>
-									<li class="disabled"><a href="#">Staff</a></li>
-									<li class="disabled"><a href="#">Students</a></li>
-									<li class="disabled"><a href="#">Alumni</a></li>
-								</ul> <!-- /.dropdown-menu -->
-							</li> <!-- /.dropdown -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">Temple Bioengineering</a></li>
 
-							<li><a href="news.html">News</a></li>
-			
-						</ul> <!-- /.nav -->
-					</div> <!--/.nav-collapse -->
-				</div><!-- /.navbar-inner -->
-			</div>  <!-- /.navbar -->
-		</div> <!-- /.container -->
-	</div> <!-- /.navbar-wrapper -->
+        <li ><a href="index.html">iCTERM Home</a></li>
+
+        <li class="dropdownactive">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Lab <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="dr-lelkes.html">Dr Peter I. Lelkes</a></li>
+            <li class="disabled"><a href="#">Goal and mission</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li class="disabled"><a href="contact.html">Contact us</a></li>
+            <li class="disabled"><a href="academic-program.html">Academic program</a></li>
+          </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.dropdown -->
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="disabled"><a href="current-research.html">Current research</a></li>
+            <li class="disabled"><a href="facilities.html">Facilities</a></li>
+            <li><a href="grants.html">Grants and awards</a></li>
+            <li class="disabled"><a href="collaborations.html">Collaborations and partnerships</a></li>
+            <li class="disabled"><a href="funding.html">Funding opportunities</a></li>
+          </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.dropdown -->
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="faculty.html">Faculty</a></li>
+            <li class="disabled"><a href="#">Visiting scholars</a></li>
+            <li class="disabled"><a href="#">Postdoctoral fellows</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li class="disabled"><a href="#">Alumni</a></li>
+          </ul> <!-- /.dropdown-menu -->
+        </li> <!-- /.dropdown -->
+
+        <li ><a href="news.html">News</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div class="container marketing"
 
 <section>
 
-<h1 class="marketing">Publications</h1>
 
+<h1 class="marketing">Publications</h1>
 <hr>
 
-<p>See <a href="http://www.biomed.drexel.edu/faculty_pages/lelkes/page4/page4.html">original page</a>. This is to be rewritten using data from the Drexel website. In its current state that code is unusable and needs major cleaning.</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      
+        <p>
+           
+            Pimton P, Lecht S, Schulman ES, and Lelkes PI 
+            (2014) 
+            <b>Enhanced Endodermal and Pulmonary Differentiation of Mouse Embryonic Stem Cells in Hypoxia.</b> 
+            <em>Tissue Engineering, Manuscript submitted for publication</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Tissue Engineering, Manuscript submitted for publication 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Frohbergh ME, Katsman A, Mondrinos MJ, Stabler CT, Hankenson KD, Oristaglio JT, and Lelkes PI 
+            (2014) 
+            <b>Bridging the Gap: Osteointegrative Properties of Electrospun Hydroxyapatite-Containing Chitosan Nanofibrous Scaffolds.</b> 
+            <em>Tissue Engineering, Manuscript submitted for publication</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Tissue Engineering, Manuscript submitted for publication 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Arien-Zakay H, Gincberg G, Nagler A, Cohen G, Liraz-Zaltsman S, Trembovler V, Alexandrovich AG, Matok I, Galski H, Lelkes PI, Shohami E, Lazarovici P 
+            (2014) 
+            <b>Neurotherapeutic Effect of Cord Blood Derived CD45+ Hematopoietic Cells in Mice after Traumatic Brain Injury.</b> 
+            <em>J Neurotrauma</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . J Neurotrauma 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Cohen-Arazi N, Cohen G, Ettinger K, Momic T, Kolitz M, Naamneh M, Katzhendler J, Domb AJ, Lazarovici P, and Lelkes PI 
+            (2014) 
+            <b>Cytocompatibility of Novel Extracellular Matrix Protein Analogs of Biodegradable Polyester Polymers Derived from α-Hydroxy Amino Acids.</b> 
+            <em>Journal of Biomaterials Science: Polymer Edition</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Journal of Biomaterials Science: Polymer Edition 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Stabler CT, Rylander AL, Chiaverelli R, Schulman ES, Marcinkiewicz C, and Lelkes PI 
+            (2014) 
+            <b>Enhanced Reseeding of Decellularized Rodent Lungs with Mouse Embryonic Stem Cells.</b> 
+            <em>Biomaterials. 35: 3252-3262</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2013.12.093>10.1016/j.biomaterials.2013.12.093</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961213015895>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biomaterials. 35: 3252-3262 
+          
+           doi: 10.1016/j.biomaterials.2013.12.093  -->
+        </p>
+      
+        <p>
+           
+            Lu L, Zhang Q, Wootton DM, Chiou R, Li D, Lu B, Lelkes PI, and Zhou J 
+            (2014) 
+            <b>Mechanical study of polycaprolactone-hydroxyapatite porous scaffolds created by porogen-based solid freeform fabrication method.</b> 
+            <em>J Appl Biomater Funct Mater. 2014 Jan 14:0</em> 
+            <a href=http://dx.doi.org/10.5301/JABFM.5000163>10.5301/JABFM.5000163</a> 
+            <a href=http://europepmc.org/abstract/MED/24425377>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Appl Biomater Funct Mater. 2014 Jan 14:0 
+          
+           doi: 10.5301/JABFM.5000163  -->
+        </p>
+      
+        <p>
+           
+            Gincberg G, Nagler A, Arien-Zakay H, Elchalal U, Lelkes PI, and Lazarovici P 
+            (2013) 
+            <b>Human Umbilical Cord Blood-Derived Mononuclear, Hematopoietic and NGF-Responsive Stem Cells Confer Neuroprotection in Ischemic Models.</b> 
+            <em>European Journal of Neurodegenerative Diseases 2:159-170</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . European Journal of Neurodegenerative Diseases 2:159-170 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Karatzas A, Katsanos K, Lilis I, Papadaki H, Kitrou P, Lecht S, Marcinkiewicz C, Siablis D, Lelkes PI, Lazarovici P, and Tsopanoglou NE 
+            (2013) 
+            <b>NGF promotes hemodynamic recovery in a rabbit hindlimb ischemic model through trkA  - and VEGFR2-dependent pathways.</b> 
+            <em>J Cardiovasc Pharmacol 62:270-277</em> 
+            <a href=http://dx.doi.org/10.1097/FJC.0b013e3182982de7>10.1097/FJC.0b013e3182982de7</a> 
+            <a href=http://journals.lww.com/cardiovascularpharm/Abstract/2013/09000/NGF_Promotes_Hemodynamic_Recovery_in_a_Rabbit.6.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Cardiovasc Pharmacol 62:270-277 
+          
+           doi: 10.1097/FJC.0b013e3182982de7  -->
+        </p>
+      
+        <p>
+           
+            Han J, Gerstenhaber JA, Lazarovici P, and Lelkes PI 
+            (2013) 
+            <b>Tissue Factor activity and ECM-related Gene Expression and Thrombogenicity of Human Aortic Endothelial Cells Grown on Electrospun Scaffolds.</b> 
+            <em>Biomacromolecules. 14:1338-1348</em> 
+            <a href=http://dx.doi.org/10.1021/bm400450m>10.1021/bm400450m</a> 
+            <a href=http://pubs.acs.org/doi/full/10.1021/bm400450m>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biomacromolecules. 14:1338-1348 
+          
+           doi: 10.1021/bm400450m  -->
+        </p>
+      
+        <p>
+           
+            Han J, Farah S, Domb AJ, and Lelkes PI 
+            (2013) 
+            <b>Electrospun Rapamycin-eluting Polyurethane Fibers for Vascular Grafts.</b> 
+            <em>Pharm Res. 30:1735-1748</em> 
+            <a href=http://dx.doi.org/10.1007/s11095-013-1016-5>10.1007/s11095-013-1016-5</a> 
+            <a href=http://link.springer.com/article/10.1007/s11095-013-1016-5>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Pharm Res. 30:1735-1748 
+          
+           doi: 10.1007/s11095-013-1016-5  -->
+        </p>
+      
+        <p>
+           
+            Kambach DM, Sodi VL, Lelkes PI, Azizkhan-Clifford J, and Reginato MJ 
+            (2013) 
+            <b>ErbB2, FoxM1, and 14-3-3ζ prime breast cancer cells for invasion in response to ionizing radiation.</b> 
+            <em>Oncogene. 2013 Jan 14</em> 
+            <a href=http://dx.doi.org/10.1038/onc.2012.629>10.1038/onc.2012.629</a> 
+            <a href=http://www.nature.com/onc/journal/v33/n5/abs/onc2012629a.html>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Oncogene. 2013 Jan 14 
+          
+           doi: 10.1038/onc.2012.629  -->
+        </p>
+      
+        <p>
+           
+            Bai L, Eyiyurekli M, Lelkes PI, and Breen DE 
+            (2013) 
+            <b>Self-organized sorting of heterotypic agents via a chemotaxis paradigm.</b> 
+            <em>Science of Computer Programming 78:594–611</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Science of Computer Programming 78:594–611 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Botta GP, Reichert M, Reginato MJ, Rustgi AK, and Lelkes PI 
+            (2013) 
+            <b>Gene Expression Analysis of K-RasG12D Transformed Human Pancreatic Ductal Cells Reveals ERK2-Regulated TIMP-1 Induced Hyperplasia.</b> 
+            <em>Neoplasia. 15:359-372</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612909/>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Neoplasia. 15:359-372 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Saglam A, Perets A, Canver AC, Li HL, Kollins K, Cohen G, Fischer I, Lazarovici P, and Lelkes PI 
+            (2013) 
+            <b>Angioneural crosstalk in scaffolds with oriented microchannels for regenerative spinal cord injury repair.</b> 
+            <em>J Mol Neurosci. 49:334-346</em> 
+            <a href=http://dx.doi.org/10.1007/s12031-012-9863-9>10.1007/s12031-012-9863-9</a> 
+            <a href=http://link.springer.com/article/10.1007/s12031-012-9863-9>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Mol Neurosci. 49:334-346 
+          
+           doi: 10.1007/s12031-012-9863-9  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Han J, and Lelkes PI 
+            (2013) 
+            <strong>Drug-Eluting Vascular Grafts</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Mondrinos MJ, Lelkes PI, Samadikuchaksaraei A, Mantalaris A, and Polak JM 
+            (2013) 
+            <strong>Lungs</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Samadikuchaksaraei A, Lecht S, Lelkes PI, Mantalaris A, and Polak JM 
+            (2013) 
+            <strong>Stem Cells as Building Blocks</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Bercu MM, Arien-Zakay H, Lecht S, Lelkes PI, Or R, Nagler A, Lazarovici P, and Elchalal U 
+            (2012) 
+            <b>Enhanced Survival and Neurite-Network Formation of Human Umbilical Cord Blood Neuronal Progenitors Upon Growth in Three-Dimensional Collagen Constructs.</b> 
+            <em>J Mol Neurosci. 2012 Dec 12</em> 
+            <a href=http://dx.doi.org/10.1007/s12031-012-9933-z>10.1007/s12031-012-9933-z</a> 
+            <a href=http://link.springer.com/article/10.1007/s12031-012-9933-z>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Mol Neurosci. 2012 Dec 12 
+          
+           doi: 10.1007/s12031-012-9933-z  -->
+        </p>
+      
+        <p>
+           
+            Frohbergh ME, Katsman A, Botta GP, Lazarovici P, Schauer CL, Wegst UGK, and Lelkes PI 
+            (2012) 
+            <b>Electrospun hydroxyapatite-containing chitosan nanofibers crosslinked with genipin for bone tissue engineering.</b> 
+            <em>Biomaterials 33:9167-9178</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2012.09.009>10.1016/j.biomaterials.2012.09.009</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961212010022>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biomaterials 33:9167-9178 
+          
+           doi: 10.1016/j.biomaterials.2012.09.009  -->
+        </p>
+      
+        <p>
+           
+            Lu L, Zhang Q, Wootton D, Chiou R, Lu B, Lelkes PI, and Zhou J 
+            (2012) 
+            <b>Biocompatibility and biodegradation studies of PCL/β-TCP bone tissue scaffold fabricated by structural porogen method.</b> 
+            <em>J Mater Sci. Mater Med. 23:2217-2226</em> 
+            <a href=http://dx.doi.org/10.1007/s10856-012-4695-2>10.1007/s10856-012-4695-2</a> 
+            <a href=http://link.springer.com/article/10.1007/s10856-012-4695-2>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Mater Sci. Mater Med. 23:2217-2226 
+          
+           doi: 10.1007/s10856-012-4695-2  -->
+        </p>
+      
+        <p>
+           
+            Gincberg G, Arien-Zakay H, Lazarovici P, and Lelkes PI 
+            (2012) 
+            <b>Neural stem cells: therapeutic potential for neurodegenerative diseases.</b> 
+            <em>Br Med Bull. 104:7-19</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Br Med Bull. 104:7-19 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Gincberg G, Arien-Zakay H, Lazarovici P, and Lelkes PI 
+            (2012) 
+            <b>Neuroprotective effects of nimodipine and nifedipine in the NGF-differentiated PC12 cells exposed to oxygen-glucose deprivation or trophic withdrawal.</b> 
+            <em>Int J Dev Neurosci. 30:465-469</em> 
+            <a href=http://dx.doi.org/10.1016/j.ijdevneu.2012.05.007>10.1016/j.ijdevneu.2012.05.007</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0736574812004121>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Int J Dev Neurosci. 30:465-469 
+          
+           doi: 10.1016/j.ijdevneu.2012.05.007  -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Rotfeld E, Arien-Zakay H, Tabakman R, Matzner H, Yaka R, Lelkes PI, and Lazarovici P 
+            (2012) 
+            <b>Neuroprotective effects of nimodipine and nifedipine in the NGF-differentiated PC12 cells exposed to oxygen-glucose deprivation or trophic withdrawal.</b> 
+            <em>Int J Dev Neurosci. 30:465-469</em> 
+            <a href=http://dx.doi.org/10.1016/j.ijdevneu.2012.05.007>10.1016/j.ijdevneu.2012.05.007</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0736574812004121>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Int J Dev Neurosci. 30:465-469 
+          
+           doi: 10.1016/j.ijdevneu.2012.05.007  -->
+        </p>
+      
+        <p>
+           
+            Lin L, Perets A, Har-el Y, Varma D, Li M, Lazarovici P, Woerdeman DL, and Lelkes PI 
+            (2012) 
+            <b>Alimentary “Green” Proteins as Electrospun Scaffolds for Skin Regenerative Engineering.</b> 
+            <em>J Tissue Eng Regen Med. 2012 Apr 12</em> 
+            <a href=http://dx.doi.org/10.1002/term.1493>10.1002/term.1493</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/term.1493/abstract,jsessionid=D7134DF4D7D763A4EB10182AE0A9477C.f03t01>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Tissue Eng Regen Med. 2012 Apr 12 
+          
+           doi: 10.1002/term.1493  -->
+        </p>
+      
+        <p>
+           
+            Zhang Q, Mochalin VN, Neitzel I, Hazeli K, Niu JJ, Kontsos A, Zhou JG, Lelkes PI, and Gogotsi Y 
+            (2012) 
+            <b>Mechanical Properties and Biomineralization of Multifunctional Nanodiamond-PLLA Composites for Bone Tissue Engineering.</b> 
+            <em>Biomaterials. 2012 33:5067-5075</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2012.03.063>10.1016/j.biomaterials.2012.03.063</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961212003626>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biomaterials. 2012 33:5067-5075 
+          
+           doi: 10.1016/j.biomaterials.2012.03.063  -->
+        </p>
+      
+        <p>
+           
+            Botta GP, Reginato MJ, Reichert M, Rustgi AK, and Lelkes PI 
+            (2012) 
+            <b>Constitutive K-RasG12D Activation of ERK2 Specifically Regulates 3D Invasion of Human Pancreatic Cancer Cells via MMP-1.</b> 
+            <em>Mol Cancer Res. 2012 Feb,10(2):183-96</em> 
+            <a href=http://dx.doi.org/10.1158/1541-7786.MCR-11-039>10.1158/1541-7786.MCR-11-039</a> 
+            <a href=http://mcr.aacrjournals.org/content/10/2/183.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Mol Cancer Res. 2012 Feb,10(2):183-96 
+          
+           doi: 10.1158/1541-7786.MCR-11-039  -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Arien-Zakay H, Lecht S, Galski H, Shohami E, Nagler A, Marcinkiewicz C, and Lelkes PI 
+            (2011) 
+            <b>Nerve Growth Factor and Human Umbilical Cord Blood-Derived Cells Confer Neurovascular Protection in Ischemia Am.</b> 
+            <em>J. Neuroprotec. Neuroregen. 3:1-8</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . J. Neuroprotec. Neuroregen. 3:1-8 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Li H, Li M, Shih WY, Lelkes PI, and Shih WH 
+            (2011) 
+            <b>Cytotoxicity tests of water soluble ZnS and CdS quantum dots.</b> 
+            <em>J Nanosci Nanotechnol. 11: 3543-3551</em> 
+            <a href=http://dx.doi.org/10.1166/jnn.2011.3803>10.1166/jnn.2011.3803</a> 
+            <a href=http://www.ingentaconnect.com/content/asp/jnn/2011/00000011/00000004/art00106>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Nanosci Nanotechnol. 11: 3543-3551 
+          
+           doi: 10.1166/jnn.2011.3803  -->
+        </p>
+      
+        <p>
+           
+            Han J, Lazarovici P, Pomerantz C, Chen X, Wei Y, and Lelkes PI 
+            (2011) 
+            <b>Co-Electrospun Blends of PLGA, Gelatin, and Elastin as Potential Nonthrombogenic Scaffolds for Vascular Tissue Engineering.</b> 
+            <em>Biomacromolecules. 12:399-408</em> 
+            <a href=http://dx.doi.org/10.1021/bm101149r>10.1021/bm101149r</a> 
+            <a href=http://pubs.acs.org/doi/abs/10.1021/bm101149r>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biomacromolecules. 12:399-408 
+          
+           doi: 10.1021/bm101149r  -->
+        </p>
+      
+        <p>
+           
+            Pimton P, Sarkar S, Sheth N, Perets A, Marcinkiewicz C, Lazarovici P, and Lelkes PI 
+            (2011) 
+            <b>Fibronectin-mediated upregulation of α5β1 integrin and cell adhesion during differentiation of mouse embryonic stem cells.</b> 
+            <em>Cell Adh Migr. 5:73-82</em> 
+            <a href=http://dx.doi.org/10.4161%2Fcam.5.1.13704>10.4161%2Fcam.5.1.13704</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3038102/>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Cell Adh Migr. 5:73-82 
+          
+           doi: 10.4161%2Fcam.5.1.13704  -->
+        </p>
+      
+        <p>
+           
+            Zhang Q, Mochalin VN, Neitzel I, Knoke IY, Han J, Klug CA, Zhou JG, Lelkes PI, and Gogotsi Y 
+            (2011) 
+            <b>Fluorescent PLLA-nanodiamond composites for bone tissue engineering.</b> 
+            <em>Biomaterials. Biomaterials. 32:87-94. Epub 2010 Sep 24</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2010.08.090>10.1016/j.biomaterials.2010.08.090</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961210011282>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biomaterials. Biomaterials. 32:87-94. Epub 2010 Sep 24 
+          
+           doi: 10.1016/j.biomaterials.2010.08.090  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Bidez PR, Kresh YJ, Wei Y, and Lelkes PI 
+            (2011) 
+            <strong>Enhanced Cardiac Differentiation of Mouse Embryonic Stem Cells by Electrical Stimulation</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-3-642-11865-4_5  -->
+        </p>
+      
+        <p>
+           
+            Zhang W, Yao D, Zhang Q, Zhou JG, and Lelkes PI 
+            (2010) 
+            <b>Fabrication of interconnected microporous biomaterials with high hydroxyapatite nanoparticle loading.</b> 
+            <em>Biofabrication. Sep,2(3):035006. Epub Sep 8</em> 
+            <a href=http://dx.doi.org/10.1088/1758-5082/2/3/035006>10.1088/1758-5082/2/3/035006</a> 
+            <a href=http://iopscience.iop.org/1758-5090/2/3/035006>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biofabrication. Sep,2(3):035006. Epub Sep 8 
+          
+           doi: 10.1088/1758-5082/2/3/035006  -->
+        </p>
+      
+        <p>
+           
+            Senel-Ayaz HG, Perets A, Govindaraj M, Brookstein D, and Lelkes PI 
+            (2010) 
+            <b>Textile-templated electrospun anisotropic scaffolds for tissue engineering and regenerative medicine.</b> 
+            <em>Conf Proc IEEE Eng Med Biol Soc. 1:255-258</em> 
+            <a href=http://dx.doi.org/10.1109/IEMBS.2010.5627466>10.1109/IEMBS.2010.5627466</a> 
+            <a href=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5627466&tag=1>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Conf Proc IEEE Eng Med Biol Soc. 1:255-258 
+          
+           doi: 10.1109/IEMBS.2010.5627466  -->
+        </p>
+      
+        <p>
+           
+            Finkelstein Y, Milatovic D, Lazarovici P, Ophir A, Richter ED, Aschner M, Lecht S, Marcinkiewicz C, Lelkes PI, Zaja-Milatovic S, Gupt RC, Brodsky B, Rosengarten A, Proscura E, Shapira E, and Wormser U 
+            (2010) 
+            <b>Peaceful use of disastrous neurotoxicants.</b> 
+            <em>Neurotoxicology. 31:608-620</em> 
+            <a href=http://dx.doi.org/10.1016/j.neuro.2010.06.009>10.1016/j.neuro.2010.06.009</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0161813X10001294>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Neurotoxicology. 31:608-620 
+          
+           doi: 10.1016/j.neuro.2010.06.009  -->
+        </p>
+      
+        <p>
+           
+            Mukherjee I, Drake K, Berke-Schlessel D, Lelkes PI, Yeh JM, and Wei Y 
+            (2010) 
+            <b>Novel Thermally Cross-Linkable Poly[(arylenedioxy)(diorganylsilylene)]s Based on Curumin: Synthesis and Characterization.</b> 
+            <em>Macromolecules, 43, 3277-3285</em> 
+            <a href=http://dx.doi.org/10.1021/ma902798b>10.1021/ma902798b</a> 
+            <a href=http://pubs.acs.org/doi/abs/10.1021/ma902798b>Abstract</a> 
+            <a href=assets/Biomacromolecules2010.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Macromolecules, 43, 3277-3285 
+          
+           doi: 10.1021/ma902798b  -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Arien-Zakay H, Wagenstein Y, Inoue S, Marcinkiewicz C, Lelkes PI, and Lazarovici P 
+            (2010) 
+            <b>Transient signaling of Erk1/2, Akt and PLCγ induced by nerve growth factor in brain capillary endothelial cells.</b> 
+            <em>Vascular Pharmacology, 53:107-142</em> 
+            <a href=http://dx.doi.org/10.1016/j.vph.2010.04.005>10.1016/j.vph.2010.04.005</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S1537189110000868>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Vascular Pharmacology, 53:107-142 
+          
+           doi: 10.1016/j.vph.2010.04.005  -->
+        </p>
+      
+        <p>
+           
+            Lu L, Zhang Q, Wootton D, Lelkes PI, and Zhou J 
+            (2010) 
+            <b>A Novel Sucrose Porogen-based Solid Freeform Fabrication System for Bone Scaffold Manufacturing.</b> 
+            <em>Rapid Prototyping Journal   - Bradford, Vol. 16, Issue 5</em> 
+            <a href=http://dx.doi.org/10.1108/13552541011065768>10.1108/13552541011065768</a> 
+            <a href=http://www.emeraldinsight.com/journals.htm?articleid=1875494&amp,show=abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Rapid Prototyping Journal   - Bradford, Vol. 16, Issue 5 
+          
+           doi: 10.1108/13552541011065768  -->
+        </p>
+      
+        <p>
+           
+            Simons DM, Gardner EM, and Lelkes PI 
+            (2010) 
+            <b>Intact T Cell Receptor Signaling by Primary, Human, CD4+ T Cells Cultured in the Rotating Wall-Vessel Bioreactor.</b> 
+            <em>J Cell Biochem</em> 
+            <a href=http://dx.doi.org/10.1002/jcb.22502>10.1002/jcb.22502</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jcb.22502/full>Abstract</a> 
+            <a href=assets/Simon_Gardner_Intact%20T%20Cell%202010.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Cell Biochem 
+          
+           doi: 10.1002/jcb.22502  -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Foerster C, Arien-Zakay H, Marcinkiewicz C, Lazarovici P, and Lelkes PI 
+            (2010) 
+            <b>Cardiac Microvascular Endothelial Cells Express and Release Nerve Growth Factor but not Fibroblast Growth Factor-2, In Vitro Cellular & Amp.</b> 
+            <em>Developmental Biology   - Animal</em> 
+            
+            
+            <a href=assets/Lecht_Foerster_Cardiac%20Microvascular%202010.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Developmental Biology   - Animal 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Arien-Zakay H, Kohan M, Lelkes PI, and Lazarovici P 
+            (2010) 
+            <b>Angiostatic Effects of K252a, a Trk Inhibitor, in Murine Brain Capillary Endothelial Cells..</b> 
+            <em>Mol Cell Biochem</em> 
+            <a href=http://dx.doi.org/10.1007/s11010-010-0386-9>10.1007/s11010-010-0386-9</a> 
+            <a href=http://link.springer.com/article/10.1007/s11010-010-0386-9>Abstract</a> 
+            <a href=assets/K252a%20angiostatic-2010.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Mol Cell Biochem 
+          
+           doi: 10.1007/s11010-010-0386-9  -->
+        </p>
+      
+        <p>
+           
+            Uttayarat P, Li M, Perets A, Pimpton P, Stachelek SJ, Alferiev I, Composto RJ, Levy RJ, and Lelkes PI 
+            (2010) 
+            <b>Micropatterning of Three-Dimensional Electrospun Polyurethane Vascular Grafts.</b> 
+            <em>Acta Biomaterials, Volume 6, Issue 11, 4229-4237</em> 
+            
+            <a href=http://www.sciencedirect.com/science/article/pii/S1742706110002746>Abstract</a> 
+            <a href=assets/Uttarayat_Pimpton_Micropatterning%202010.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Acta Biomaterials, Volume 6, Issue 11, 4229-4237 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Finck CM, Roszell B, and Lelkes PI 
+            (2010) 
+            <strong>3-D in vitro models for Lung Tissue Engineering</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lecht S, Arien-Zakay H, Marcinkiewicz C, Lelkes PI, Lazarovici P 
+            (2009) 
+            <b>Nerve Growth Factor-Induced Protection of Brain Capillary Endothelial Cells Exposed to Oxygen–Glucose Deprivation Involves Attenuation of Erk Phosphorylation.</b> 
+            <em>J Mol Neurosci 41:183-192</em> 
+            <a href=http://dx.doi.org/10.1007/s12031-009-9318-0>10.1007/s12031-009-9318-0</a> 
+            <a href=http://link.springer.com/article/10.1007/s12031-009-9318-0>Abstract</a> 
+            <a href=assets/Lechtet%20al-JMolNeurosci2010.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Mol Neurosci 41:183-192 
+          
+           doi: 10.1007/s12031-009-9318-0  -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-3-642-11865-4  -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Jiang J, Sun L, Feng H, Chen L, Meng SQ, Feng Z, Tao JF, and Lelkes PI 
+            (2009) 
+            <b>Modified Acellular Dermal Matrix for Chondrocyte Implantation in Repairing Cartilage Defects of Rabbits.</b> 
+            <em>Journal of Clinical Rehabilitative Tissue Engineering Research, Vol.13, No.29</em> 
+            
+            <a href=http://www.crter.cn/Upload/Files/NewsAttatches/2/5613-5618.-.2009829141711.pdf>Abstract</a> 
+            <a href=assets/Jian%20Sun%20et%20al_DermalMatrix2009.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Clinical Rehabilitative Tissue Engineering Research, Vol.13, No.29 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Arien-Zakay H, Lecht S, Perets A, Roszell B, Lelkes PI, and Lazarovici P 
+            (2009) 
+            <b>Quantitative assessment of neuronal differentiation in three dimensional collagen gels, using enhanced Green Fluorescence Protein expressing   - PC12 pheochromocytoma cells.</b> 
+            <em>J Mol Neurosci. 37:225-237</em> 
+            <a href=http://dx.doi.org/10.1007/s12031-008-9123-1>10.1007/s12031-008-9123-1</a> 
+            <a href=http://www.springerlink.com/content/l1u720556nn6707k/>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Mol Neurosci. 37:225-237 
+          
+           doi: 10.1007/s12031-008-9123-1  -->
+        </p>
+      
+        <p>
+           
+            Roszell B, Mondrinos MJ, Seaton A, Simons DM, Koutzaki SH, Fong GH, Lelkes PI and Finck CM 
+            (2009) 
+            <b>Differentiation of Embryonic Stem Cells to Definitive Endoderm and Alveolar Epithelial Type II Cells.</b> 
+            <em>Tissue Tissue Eng Part A. 5:3351-3365.</em> 
+            <a href=http://dx.doi.org/10.1089/ten.tea.2008.0664>10.1089/ten.tea.2008.0664</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2811058/>Abstract</a> 
+            <a href=assets/Roszell%20et%20al%20TE%202009.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Tissue Tissue Eng Part A. 5:3351-3365. 
+          
+           doi: 10.1089/ten.tea.2008.0664  -->
+        </p>
+      
+        <p>
+           
+            Simons DM, Garder EM, and Lelkes PI 
+            (2009) 
+            <b>Sub-mitogenic phorbol myristate acetate co-stimulation rescues the PHA-induced activation of both naïve and memory T cells cultured in the rotating-wall vessel bioreactor.</b> 
+            <em>Cell Biol Int. 33:882-886</em> 
+            <a href=http://dx.doi.org/10.1016/j.cellbi.2009.04.024>10.1016/j.cellbi.2009.04.024</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S1065699509001164#>Abstract</a> 
+            <a href=assets/Simon_Gardner_Sub%20Mitogenic%202009.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Cell Biol Int. 33:882-886 
+          
+           doi: 10.1016/j.cellbi.2009.04.024  -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- 
+          
+           doi: 10.1016/j.biomaterials.2005.03.030  -->
+        </p>
+      
+        <p>
+           
+            Crisanti CM, Koutzaki SH, Mondrinos MJ, Lelkes PI, and Finck CM 
+            (2008) 
+            <b>Novel Methods for Delivery of Cell-Based Therapies.</b> 
+            <em>J Surg Res. 146:3-10</em> 
+            <a href=http://dx.doi.org/10.1016/j.jss.2007.06.010>10.1016/j.jss.2007.06.010</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0022480407004258>Abstract</a> 
+            <a href=assets/Crisanti-%20et%20al_J%20SurgRes_2008.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Surg Res. 146:3-10 
+          
+           doi: 10.1016/j.jss.2007.06.010  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Koutzaki SH, Poblete HM, Crisanti MC, Lelkes PI, Finck CM 
+            (2008) 
+            <b>In Vivo Pulmonary Tissue Engineering: Contribution of Donor-Derived Endothelial Cells to Construct Vascularization Tissue.</b> 
+            <em>Eng Part A. 14:361-368</em> 
+            <a href=http://dx.doi.org/10.1089/tea.2007.0041>10.1089/tea.2007.0041</a> 
+            <a href=http://online.liebertpub.com/doi/pdf/10.1089/tea.2007.0041>Abstract</a> 
+            <a href=assets/Mondrinos%20et%20al_TissueEngineering%202007.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Eng Part A. 14:361-368 
+          
+           doi: 10.1089/tea.2007.0041  -->
+        </p>
+      
+        <p>
+           
+            Uttayarat P, Chen M, Li M, Allen FD, Composto RJ, and Lelkes PI 
+            (2008) 
+            <b>Microtopography and Flow Modulate the Direction of Endothelial Cell Migration.</b> 
+            <em>Am J Physiol Heart Circ Physiol 294:H1027-1035</em> 
+            <a href=http://dx.doi.org/10.1152/ajpheart.00816.2007>10.1152/ajpheart.00816.2007</a> 
+            <a href=http://ajpheart.physiology.org/content/294/2/H1027>Abstract</a> 
+            <a href=assets/Uttayarat%20Microtopography%202008.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Am J Physiol Heart Circ Physiol 294:H1027-1035 
+          
+           doi: 10.1152/ajpheart.00816.2007  -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Mylonakis A, Zhang Z, Yang G, Lelkes PI, Che S, Lu Q, and Wei Y 
+            (2008) 
+            <b>Templated Synthesis of Electroactive Periodic Mesoporous Organosilica Bridged with Oligoaniline.</b> 
+            <em>Chemistry 14:2909-2917</em> 
+            <a href=http://dx.doi.org/10.1002/chem.200701605>10.1002/chem.200701605</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/chem.200701605/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Chemistry 14:2909-2917 
+          
+           doi: 10.1002/chem.200701605  -->
+        </p>
+      
+        <p>
+           
+            Kamat V, Donaldson JM, Kari C, Quadros MRD, Lelkes PI, Chaiken I, Cocklin S, Williams JC, Papazoglou E, and Rodeck U 
+            (2008) 
+            <b>Enhanced EGFR Inhibition and Distinct Epitope Recognition by EGFR Antagonistic Mabs C225 and 425.</b> 
+            <em>Cancer Biol Ther. 7:726-733</em> 
+            <a href=http://dx.doi.org/10.4161/cbt.7.5.6097>10.4161/cbt.7.5.6097</a> 
+            <a href=https://www.landesbioscience.com/journals/cbt/article/6097/?nocache=1749678983>Abstract</a> 
+            <a href=assets/Kamat_V_Enhanced%20EGFR_2008.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Cancer Biol Ther. 7:726-733 
+          
+           doi: 10.4161/cbt.7.5.6097  -->
+        </p>
+      
+        <p>
+           
+            Ringel I, Lecht S, Sterin M, Lelkes PI, and Lazarovici P 
+            (2008) 
+            <b>31P Magnetic Resonance Spectroscopy of Endothelial Cells Grown in 3D Matrigel Construct as an Enabling Platform Technology: I. The Effect of Glial Cells and Valproic Acid on Phosphometabolites Level.</b> 
+            <em>Endothelium. 15:288-298</em> 
+            <a href=http://dx.doi.org/10.1080/10623320802487874>10.1080/10623320802487874</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.1080/10623320802487874>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium. 15:288-298 
+          
+           doi: 10.1080/10623320802487874  -->
+        </p>
+      
+        <p>
+           
+            Ringel I, Lecht S, Sterin M, Lelkes PI, and Lazarovici P 
+            (2008) 
+            <b>31P Magnetic Resonance Spectroscopy of Endothelial Cells Grown in 3D Matrigel Construct as an Enabling Platform Technology II: The Effect of Anti-Inflammatory Drugs on Phosphometabolites Level.</b> 
+            <em>Endothelium. 15:299-307</em> 
+            <a href=http://dx.doi.org/10.1080/10623320802487874>10.1080/10623320802487874</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/19065321>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium. 15:299-307 
+          
+           doi: 10.1080/10623320802487874  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lecht S, Puxeddu I, Levi-Schaffer F, Reich R, Davidson B, Schaefer E, Marcinkiewicz C, Lelkes PI, and Lazarovici P 
+            (2008) 
+            <strong>Nerve growth factor   - a neurotrophin with angiogenic activity</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Zhou J, Lu L, Byrapogou K, Wootton D, Lelkes PI, and Fair R 
+            (2008) 
+            <strong>Electrowetting based multi-fluidics array printing of high resolution tissue construct with embedded cells and growth factors</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Mylonakis A, Zhang Z, Lelkes PI, Levon K, Li S, Feng Q and Wei Y 
+            (2007) 
+            <b>Oligoaniline-Contained Electroactive Silsesquioxane Precursor for Synthesizing Novel Siliceous Materials.</b> 
+            <em>Macromolecules, 40: 2721–2729</em> 
+            <a href=http://dx.doi.org/10.1021/ma0622985>10.1021/ma0622985</a> 
+            <a href=http://pubs.acs.org/doi/abs/10.1021/ma0622985>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Macromolecules, 40: 2721–2729 
+          
+           doi: 10.1021/ma0622985  -->
+        </p>
+      
+        <p>
+           
+            Li M, Bidez P, Guterman-Tretter E, Guo Y, MacDiarmid AG, Lelkes PI, Yuan XB, Yuan XY, Sheng J, Li H, Song C, and Wei Y 
+            (2007) 
+            <b>Electroactive and nanostructured polymers as scaffold materials for neuronal and cardiac tissue engineering.</b> 
+            <em>Chinese Journal of Polymer Science (English edition), 25: 331-339</em> 
+            <a href=http://dx.doi.org/10.1142/S0256767907002199>10.1142/S0256767907002199</a> 
+            <a href=http://www.worldscinet.com/cjps/25/2504/S0256767907002199.html>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Chinese Journal of Polymer Science (English edition), 25: 331-339 
+          
+           doi: 10.1142/S0256767907002199  -->
+        </p>
+      
+        <p>
+           
+            Huang L, Hu J, Lang L, Wang X, Zhang P, Jing X, Wang X, Chen X, Lelkes PI, MacDiarmid AG, and Wei Y 
+            (2007) 
+            <b>Synthesis and characterization of electroactive and biodegradable ABA block copolymer of polylactide and aniline pentamer.</b> 
+            <em>Biomaterials 28:1741-1751</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2006.12.007>10.1016/j.biomaterials.2006.12.007</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961206010234>Abstract</a> 
+            <a href=assets/1_Huang_SynthesisCharacterization.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biomaterials 28:1741-1751 
+          
+           doi: 10.1016/j.biomaterials.2006.12.007  -->
+        </p>
+      
+        <p>
+           
+            Botta GP, Manley M, Miller S, and Lelkes PI 
+            (2007) 
+            <b>Real-time assessment of three-dimensional cell aggregation in rotating wall vessel bioreactors in vitro.</b> 
+            <em>Nature Protocols, 1: 2116-2126</em> 
+            <a href=http://dx.doi.org/10.1038/nprot.2006.311>10.1038/nprot.2006.311</a> 
+            <a href=http://www.nature.com/nprot/journal/v1/n4/abs/nprot.2006.311.html>Abstract</a> 
+            <a href=assets/Botta%20et%20al_NatProt2006%20311_2006.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Nature Protocols, 1: 2116-2126 
+          
+           doi: 10.1038/nprot.2006.311  -->
+        </p>
+      
+        <p>
+           
+            Mondrinos MJ, Koutzaki S, Lelkes PI, and Finck CM 
+            (2007) 
+            <b>A tissue-engineered model of fetal distal lung tissue Am J Physiol.</b> 
+            <em>Lung Cell Mol Physiol 293:L639-650</em> 
+            <a href=http://dx.doi.org/10.1152/ajplung.00403.2006>10.1152/ajplung.00403.2006</a> 
+            <a href=http://ajplung.physiology.org/content/293/3/L639>Abstract</a> 
+            <a href=assets/3_Modrinos_Real-time.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Lung Cell Mol Physiol 293:L639-650 
+          
+           doi: 10.1152/ajplung.00403.2006  -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Li M, Mylonakis A, Han JG, MacDiarmid AG, Chen X, Lelkes PI, and Wei Y 
+            (2007) 
+            <b>Electroactive Oligoaniline-Containing Self-Assembled Monolayers for Tissue Engineering Applications.</b> 
+            <em>Biomacromolecules 8:3025-3034.</em> 
+            <a href=http://dx.doi.org/10.1021/bm070266z>10.1021/bm070266z</a> 
+            <a href=http://pubs.acs.org/doi/abs/10.1021/bm070266z>Abstract</a> 
+            <a href=assets/4_Guo_Electroactive%20Oligoaniline.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biomacromolecules 8:3025-3034. 
+          
+           doi: 10.1021/bm070266z  -->
+        </p>
+      
+        <p>
+           
+            Moxon KA, Hallman S, Aslani A, Kalkhoran NM, and Lelkes PI 
+            (2007) 
+            <b>Bioactive properties of nanostructured porous silicon for enhancing electrode to neuron interfaces.</b> 
+            <em>J Biomater Sci Polym Ed., 18(10): 1263-81</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/17939885>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biomater Sci Polym Ed., 18(10): 1263-81 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Eyiyurekli M, Breen DE, and Lelkes PI 
+            (2007) 
+            <b>Simulation of Chemotaxis-based Sorting of Heterotypic Cell Populations.</b> 
+            <em></em> 
+            
+            <a href=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4400931&tag=1>Abstract</a> 
+            <a href=assets/Eyiyurekli_Simulation%202007.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lazarovici P, Li M, Perets A, Mondrinos MJ, Lecht S, Koharski CD, Bidez PR, Finck CM, and Lelkes PI 
+            (2006) 
+            <strong>Intelligent Biomatrices and Engineered Tissue Constructs: in vitro Models for Drug Discovery and Toxicity Testing</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Li M, Bidez PR, Guterman-Tretter E, Gou Y, MacDiarmid AG, Lelkes PI, Yuan XB, Yuan XY, Sheng J, Li H, Song CX, and Wei Y 
+            (2006) 
+            <b>Research Progress on Electroactive and Electrically Conductive Polymers for Tissue Engineering Scaffolds.</b> 
+            <em>Acta Acad Med Sin 28: 845-848</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Acta Acad Med Sin 28: 845-848 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Bidez PR, Wei Y, MacDiarmid AG, and Lelkes PI 
+            (2006) 
+            <b>Polyaniline, an electroactive polymer, supports adhesion and proliferation of cardiac myoblasts.</b> 
+            <em>Journal of Biomaterials Science. Polymer Edition, 17: 199-212.</em> 
+            
+            
+            <a href=assets/14_Bidez_Polyaniline.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Biomaterials Science. Polymer Edition, 17: 199-212. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Vamvakidou AP, Mondrinos MJ, Petushi SP, Garcia FU, Lelkes PI, and Tozeren A 
+            (2006) 
+            <b>Heterogeneous Breast Tumoroids: An In Vitro Assay for Investigating Cellular Heterogeneity and Drug Delivery.</b> 
+            <em>J Biomol Screen, 12:13-20.</em> 
+            
+            
+            <a href=assets/6_Vamvakidou_Heterogenous%20Breast.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Biomol Screen, 12:13-20. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Gazit A, Staniszewska I, Marcinkiewicz C, and Lelkes PI 
+            (2006) 
+            <b>Nerve Growth Factor Promotes Angiogenesis in the Quail Chorioallantoic Membrane.</b> 
+            <em>Endothelium, 13:51-59</em> 
+            <a href=http://dx.doi.org/10.1080/10623320600669053>10.1080/10623320600669053</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.1080/10623320600669053>Abstract</a> 
+            <a href=assets/7_Lazarovici_Nerve%20Growth.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Endothelium, 13:51-59 
+          
+           doi: 10.1080/10623320600669053  -->
+        </p>
+      
+        <p>
+           
+            Dietrich F, and Lelkes PI 
+            (2006) 
+            <b>The three-dimensional microcarrier-based angiogenesis assay and its application for co-culture studies.</b> 
+            <em>Angiogenesis, 9:111-125</em> 
+            
+            
+            <a href=assets/Dietrich%20and%20Lelkes_2006.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Angiogenesis, 9:111-125 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Mondrinos MJ, Dembzynski R, Lu L, Byrapogu VKC, Wootton DM, Lelkes PI, and Zhou J 
+            (2006) 
+            <b>Porogen-based Solid Freeform Fabrication of Polycaprolactone-Calcium Phosphate Scaffolds for Tissue Engineering.</b> 
+            <em>Biomaterials, 27:4399-4408.</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2006.03.049>10.1016/j.biomaterials.2006.03.049</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S014296120600264X>Abstract</a> 
+            <a href=assets/9_Mondrinos_Porogen-based.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biomaterials, 27:4399-4408. 
+          
+           doi: 10.1016/j.biomaterials.2006.03.049  -->
+        </p>
+      
+        <p>
+           
+            Manley P, and Lelkes PI 
+            (2006) 
+            <b>A Novel Real-time System to Monitor Cell Aggregation and Trajectories in Rotating Wall Vessel Bioreactors.</b> 
+            <em>J Biotechnol, 125:416-424</em> 
+            <a href=http://dx.doi.org/10.1016/j.jbiotec.2006.03.030>10.1016/j.jbiotec.2006.03.030</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0168165606002434>Abstract</a> 
+            <a href=assets/10_Manley_A%20Novel%20Real-time.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Biotechnol, 125:416-424 
+          
+           doi: 10.1016/j.jbiotec.2006.03.030  -->
+        </p>
+      
+        <p>
+           
+            Li M, Mondrinos MJ, Gandhi MR, Ko FK, Chen X, and Lelkes PI 
+            (2006) 
+            <b>Co-electrospun poly (lactide-co-glycolide), gelatin, and elastin blends for tissue engineering scaffolds.</b> 
+            <em>J Biomed Mater Res A, 79:963-73</em> 
+            <a href=http://dx.doi.org/10.1002/jbm.a.30833>10.1002/jbm.a.30833</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jbm.a.30833/full>Abstract</a> 
+            <a href=assets/11_Li_Co-electrospun%20poly(lactide-co-glycolide).pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Biomed Mater Res A, 79:963-73 
+          
+           doi: 10.1002/jbm.a.30833  -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Marcinkiewicz C, and Lelkes PI 
+            (2006) 
+            <b>Cross Talk between the Cardiovascular and Nervous Systems: Neurotrophic Effects of Vascular Endothelial Growth Factor (VEGF) and Angiogenic Effects of Nerve Growth Factor (NGF)   - Implications in Drug Development.</b> 
+            <em>Current Pharmaceutical Design, 12:2609-2622</em> 
+            
+            <a href=http://research.ekmd.huji.ac.il/publications.asp?id=9871>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Current Pharmaceutical Design, 12:2609-2622 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Li M, Guo Y, Wei Y, MacDiarmid AG, and Lelkes PI 
+            (2006) 
+            <b>Electrospinning polyaniline-contained gelatin nanofibers for tissue engineering applications.</b> 
+            <em>Biomaterials, 27(13), 2705-2715</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2005.11.037>10.1016/j.biomaterials.2005.11.037</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/16352335?dopt=Abstract>Abstract</a> 
+            <a href=assets/13_Li%20Mengyan_Electrospinning%20polyaniline-contained.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biomaterials, 27(13), 2705-2715 
+          
+           doi: 10.1016/j.biomaterials.2005.11.037  -->
+        </p>
+      
+        <p>
+           
+            Bidez PR, Li S, MacDiarmid AG, Venancio EC, Wei Y, and Lelkes PI 
+            (2006) 
+            <b>Polyaniline, an electroactive polymer, supports adhesion and proliferation of cardiac myoblasts..</b> 
+            <em>Journal of Biomaterials Science, Polymer Edition (2006), 17(1-2), 199-212. CODEN: JBSEEA ISSN:0920-5063. AN 2006:30357</em> 
+            <a href=http://dx.doi.org/10.1163/156856206774879180>10.1163/156856206774879180</a> 
+            <a href=http://www.tandfonline.com/doi/abs/10.1163/156856206774879180#.UvUnghY8Fz8>Abstract</a> 
+            <a href=assets/14_Bidez_Polyaniline.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Biomaterials Science, Polymer Edition (2006), 17(1-2), 199-212. CODEN: JBSEEA ISSN:0920-5063. AN 2006:30357 
+          
+           doi: 10.1163/156856206774879180  -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Wei Y, Lelkes PI, Ko FK, Li S, and Feng Q 
+            (2005) 
+            <b>Synthesis and characterization of novel electroactive aniline trimer-containing organosilane materials.</b> 
+            <em>Polym. Mater. Sci. Eng., 92:320-321.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Polym. Mater. Sci. Eng., 92:320-321. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Li M, Mondrinos MJ, Yang Y, Gandhi MR, Ko FK, Yang G, Weiss AS, and Lelkes PI 
+            (2005) 
+            <b>Electrospun Protein Fibers as Matrices for Tissue Engineering.</b> 
+            <em>Biomaterials, 26:5999-6008</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2005.03.030>10.1016/j.biomaterials.2005.03.030</a> 
+            
+            <a href=assets/Biomaterials_inpress2005.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biomaterials, 26:5999-6008 
+          
+           doi: 10.1016/j.biomaterials.2005.03.030  -->
+        </p>
+      
+        <p>
+           
+            Lu L, Mondrinos MJ, Lelkes PI, Wootton D, and Zhou J 
+            (2005) 
+            <b>Manufacturing System Development for Fabrication of Bone Scaffold.</b> 
+            <em>Proc ASME International Mechanical Engineering Congress, in press</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Proc ASME International Mechanical Engineering Congress, in press 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Li M, Mondrinos MJ, Chen X, and Lelkes PI 
+            (2005) 
+            <b>Electrospun Blends of Natural and Synthetic Polymers as Scaffolds for Tissue Engineering.</b> 
+            <em>IEEE-BMES Transactions, 27: 5858 – 5861</em> 
+            <a href=http://dx.doi.org/10.1109/IEMBS.2005.1615822>10.1109/IEMBS.2005.1615822</a> 
+            <a href=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1615822&tag=1>Abstract</a> 
+            <a href=assets/EMBC05_Mengyan_Final.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . IEEE-BMES Transactions, 27: 5858 – 5861 
+          
+           doi: 10.1109/IEMBS.2005.1615822  -->
+        </p>
+      
+        <p>
+           
+            Uttayarat P, Toworfe GK, Lelkes PI, and Composto R 
+            (2005) 
+            <b>Nano  - to micro  - scale topographic guidance for the orientation and the cytoskeletal protein alignment of cultured bovine aortic endothelial cells on textured silicone surfaces.</b> 
+            <em>Journal of Biomedical Materials Research: Part A, 75:668-680</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Journal of Biomedical Materials Research: Part A, 75:668-680 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Unsworth BR, Saporta S, Cameron DF, and Gallo G 
+            (2005) 
+            <strong>Culture of 3-D Neuronal and Neurendocrine Tissue Constructs</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- . Tissue Engineering, 12: 717-726. 
+          
+           doi: 10.1089/ten.2006.12.717  -->
+        </p>
+      
+        <p>
+           
+            Huang L, Hu J, Zhuang X, Ma J, Chen X, Jing X, Guo Y, Li M, Lelkes PI, and Wei Y 
+            (2005) 
+            <b>Synthesis and characterization of electro-active and biodegradable block copolymer of aniline pentamer with polylactide.</b> 
+            <em>Chemical Journal of Chinese Universities, 26: 1171-1173</em> 
+            
+            <a href=http://en.cnki.com.cn/Article_en/CJFDTOTAL-GDXH200509049.htm>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Chemical Journal of Chinese Universities, 26: 1171-1173 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Dolle JP, Rezvan A, Allen FD, Lazarovici P, and Lelkes PI 
+            (2005) 
+            <b>Nerve Growth Factor Induced Migration of Endothelial Cells.</b> 
+            <em>Journal of Pharmacology and Experimental Therapeutics, 315:1220-1227</em> 
+            <a href=http://dx.doi.org/10.1124/jpet.105.093252>10.1124/jpet.105.093252</a> 
+            <a href=http://jpet.aspetjournals.org/content/315/3/1220.short>Abstract</a> 
+            <a href=assets/Dolle%20et%20al_%20JPET_2005.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Pharmacology and Experimental Therapeutics, 315:1220-1227 
+          
+           doi: 10.1124/jpet.105.093252  -->
+        </p>
+      
+        <p>
+           
+            Simons DM, Gardner EM, and Lelkes PI 
+            (2005) 
+            <b>Dynamic Culture in a Rotating-Wall Vessel Bioreactor Differentially Inhibits Murine T Lymphocyte Activation by Mitogenic Stimuli Upon Return to Static Conditions in a Time-Dependent Manner.</b> 
+            <em>J Appl Physiol. JAP-00887-2005.R1</em> 
+            <a href=http://dx.doi.org/10.1152/japplphysiol.00887.2005>10.1152/japplphysiol.00887.2005</a> 
+            <a href=http://jap.physiology.org/content/100/4/1287.short>Abstract</a> 
+            <a href=assets/15_Simons_Dynamic%20Culture.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Appl Physiol. JAP-00887-2005.R1 
+          
+           doi: 10.1152/japplphysiol.00887.2005  -->
+        </p>
+      
+        <p>
+           
+            Ritz BW, Lelkes PI, and Gardner, EM 
+            (2005) 
+            <b>Functional recovery of peripheral blood mononuclear cells in modeled microgravity.</b> 
+            <em>FASEB J.</em> 
+            <a href=http://dx.doi.org/10.1096/fj.04-3122fje>10.1096/fj.04-3122fje</a> 
+            <a href=http://www.fasebj.org/content/20/2/305.short>Abstract</a> 
+            <a href=assets/16_Ritz_Functional%20recovery.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . FASEB J. 
+          
+           doi: 10.1096/fj.04-3122fje  -->
+        </p>
+      
+        <p>
+           
+            Uttayarat P, Lelkes PI, and Composto RJ 
+            (2005) 
+            <b>Effect of nano-to micro-scale surface topography on the orientation of endothelial cells.</b> 
+            <em>Materials Research Society Symposium Proceedings, 845(Nanoscale Materials Science in Biology and Medicine), 157-162</em> 
+            <a href=http://dx.doi.org/10.1557/PROC-845-AA8.5>10.1557/PROC-845-AA8.5</a> 
+            <a href=http://journals.cambridge.org/action/displayAbstract,jsessionid=B081E44E0110BB7B94B1F8FAE29C9A5A.journals?fromPage=online&aid=8005037>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Materials Research Society Symposium Proceedings, 845(Nanoscale Materials Science in Biology and Medicine), 157-162 
+          
+           doi: 10.1557/PROC-845-AA8.5  -->
+        </p>
+      
+        <p>
+           
+            Li M, Mondrinos MJ, Gandhi MR, Ko FK, Weiss AS, and Lelkes PI 
+            (2005) 
+            <b>Electrospun protein fibers as matrices for tissue engineering.</b> 
+            <em>Biomaterials, 26(30), 5999-6008. </em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2005.03.030>10.1016/j.biomaterials.2005.03.030</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961205002553#>Abstract</a> 
+            <a href=assets/18_Li%20M_Electrospun.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biomaterials, 26(30), 5999-6008.  
+          
+           doi: 10.1016/j.biomaterials.2005.03.030  -->
+        </p>
+      
+        <p>
+           
+            Darling A, Shor L, Khalil S, Mondrinos MJ, Lelkes PI, Guceri S, and Sun W 
+            (2005) 
+            <b>Multi-material scaffolds for tissue engineering. Macromolecular Symposia.</b> 
+            <em>227(Biological and Synthetic Polymer Networks and Gels), 345-355</em> 
+            
+            
+            <a href=assets/Darling%20et%20al_Macromolecular%20Symposia%202005.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . 227(Biological and Synthetic Polymer Networks and Gels), 345-355 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Wei Y, Yin H, Cao X, Ndungu P, Yang G, Bradley JC, Pourrezaei K, Lelkes PI, and Tsien JZ 
+            (2005) 
+            <b>Nanoelectrodes fabricated from electron beam deposited carbon as potential electrochemical neuronal probes.</b> 
+            <em>Journal of Biomedical Nanotechnology, 1(3), 336-340</em> 
+            <a href=http://dx.doi.org/10.1166/jbn.2005.035>10.1166/jbn.2005.035</a> 
+            <a href=http://www.ingentaconnect.com/content/asp/jbn/2005/00000001/00000003/art00011>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Biomedical Nanotechnology, 1(3), 336-340 
+          
+           doi: 10.1166/jbn.2005.035  -->
+        </p>
+      
+        <p>
+           
+            Dolle JP, Rezvan A, Allen FD, Lazarovici P, and Lelkes PI 
+            (2005) 
+            <b>Nerve growth factor-induced migration of endothelial cells.</b> 
+            <em>Journal of Pharmacology and Experimental Therapeutics 315(3), 1220-1227</em> 
+            <a href=http://dx.doi.org/10.1124/jpet.105.093252>10.1124/jpet.105.093252</a> 
+            <a href=http://jpet.aspetjournals.org/content/315/3/1220.short>Abstract</a> 
+            <a href=assets/21_Dolle_Nerve%20Growth.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Pharmacology and Experimental Therapeutics 315(3), 1220-1227 
+          
+           doi: 10.1124/jpet.105.093252  -->
+        </p>
+      
+        <p>
+           
+            Mondrinos MJ, Koutzaki S, Jiwanmall E, Li M, Dechadarevian JP, Lelkes PI, and Finck CM 
+            (2005) 
+            <b>Engineering Three-Dimensional Pulmonary Tissue Constructs.</b> 
+            <em>Tissue Eng., 12, 1-12</em> 
+            
+            <a href=http://online.liebertpub.com/doi/abs/10.1089/ten.2006.12.717>Abstract</a> 
+            <a href=assets/22_Mondrinos_Engineering%20Three-D.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Tissue Eng., 12, 1-12 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Fridman G, Li M, Lelkes PI, Friedman G, Fridman A, and Gutsol AF 
+            (2005) 
+            <b>Nonthermal plasma bio-active liquid micro and nano-xerography.</b> 
+            <em>IEEE Transactions on Plasma Science 33(3), 1061-1065</em> 
+            <a href=http://dx.doi.org/10.1109/TPS.2005.848602>10.1109/TPS.2005.848602</a> 
+            <a href=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1440543&tag=1>Abstract</a> 
+            <a href=assets/23_Fridman_Non-Thermal.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . IEEE Transactions on Plasma Science 33(3), 1061-1065 
+          
+           doi: 10.1109/TPS.2005.848602  -->
+        </p>
+      
+        <p>
+           
+            Huang LH, Hu J, Zhuang XL, Ma J, Chen XS, Jing XB, Guo Y, Li M, Lelkes PI, and Wei Y 
+            (2005) 
+            <b>Synthesis and characterization of electro-active and biodegradable block copolymer of aniline pentamer with polylactide.</b> 
+            <em>Gaodeng Xuexiao Huaxue Xuebao, 26(9), 1771-1773</em> 
+            <a href=http://dx.doi.org/10.1016/j.biomaterials.2006.12.007>10.1016/j.biomaterials.2006.12.007</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0142961206010234>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Gaodeng Xuexiao Huaxue Xuebao, 26(9), 1771-1773 
+          
+           doi: 10.1016/j.biomaterials.2006.12.007  -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Wei Y, Lelkes PI, Ko FK, Li S, and Feng Q 
+            (2005) 
+            <b>Synthesis and characterization of novel electroactive aniline trimer-containing organosilane material.</b> 
+            <em>Abstracts of Papers, 229th ACS National Meeting, San Diego, CA, United States, March 13-17, 2005, PMSE-189</em> 
+            
+            
+            <a href=assets/Wei%20Yen_Synthesis%202005.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Abstracts of Papers, 229th ACS National Meeting, San Diego, CA, United States, March 13-17, 2005, PMSE-189 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Wei Y, Lelkes PI, Ko FK, Li S, and Feng Q 
+            (2005) 
+            <b>Synthesis and characterization of novel electroactive aniline trimer-containing organosilane materials.</b> 
+            <em>PMSE Preprints, 92 320-321</em> 
+            
+            
+            <a href=assets/Wei%20Yen_Synthesis%202005.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . PMSE Preprints, 92 320-321 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Uttayarat P, Toworfe GK, Dietrich F, Lelkes PI, and Composto RJ 
+            (2005) 
+            <b>Topographic guidance of endothelial cells on silicone surfaces with micro  - to nanogrooves: Orientation of actin filaments and focal adhesions.</b> 
+            <em>Journal of Biomedical Materials Research, Part A, 75A(3), 668-680</em> 
+            <a href=http://dx.doi.org/10.1002/jbm.a.30478>10.1002/jbm.a.30478</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jbm.a.30478/full>Abstract</a> 
+            <a href=assets/Uttayarat_Topographic%202005.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Biomedical Materials Research, Part A, 75A(3), 668-680 
+          
+           doi: 10.1002/jbm.a.30478  -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Wei Y, Lelkes PI, Ko FK, Zhou Y, and Levon K 
+            (2004) 
+            <b>Synthesis and characterization of thiolated aniline oligomers for potential bioconjugation use.</b> 
+            <em>Polymeric Materials: Science and Engineering Vol. 91</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Polymeric Materials: Science and Engineering Vol. 91 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Martins ACP, Souza KLA, Shio MT, Mathias PCF, Lelkes PI, and García RMG 
+            (2004) 
+            <b>Adrenal medullary function and expression of catecholamine-synthesizing enzymes in mice with hypothalamic obesity.</b> 
+            <em>Life Sciences, 74(26), 3211-3222</em> 
+            <a href=http://dx.doi.org/10.1016/j.lfs.2003.10.034>10.1016/j.lfs.2003.10.034</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0024320504001742>Abstract</a> 
+            <a href=assets/28_Martins_Adrenal%20medullary.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Life Sciences, 74(26), 3211-3222 
+          
+           doi: 10.1016/j.lfs.2003.10.034  -->
+        </p>
+      
+        <p>
+           
+            Brooks AR, Lelkes PI, and Rubanyi GM 
+            (2004) 
+            <b>Gene expression profiling of vascular endothelial cells exposed to fluid mechanical forces: Relevance for focal susceptibility to atherosclerosis.</b> 
+            <em>Endothelium 11(1), 45-57</em> 
+            <a href=http://dx.doi.org/10.1080/10623320490432470>10.1080/10623320490432470</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.1080/10623320490432470>Abstract</a> 
+            <a href=assets/Brooks%20et%20al_Endothelium2004.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Endothelium 11(1), 45-57 
+          
+           doi: 10.1080/10623320490432470  -->
+        </p>
+      
+        <p>
+           
+            Rezvan A, Allen FD, and Lelkes PI 
+            (2004) 
+            <b>Steady unidirectional laminar flow inhibits monolayer formation by human and rat microvascular endothelial cells.</b> 
+            <em>Endothelium: Journal of endothelial cell research 11(1), 11-6</em> 
+            <a href=http://dx.doi.org/10.1080/10623320490432443>10.1080/10623320490432443</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.1080/10623320490432443>Abstract</a> 
+            <a href=assets/30_Rezvan_Steady%20Unidirectional.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Endothelium: Journal of endothelial cell research 11(1), 11-6 
+          
+           doi: 10.1080/10623320490432443  -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Wei Y, Lelkes PI, Ko FK, Zhou Y, and Levon K 
+            (2004) 
+            <b>Synthesis and characterization of thiolated aniline oligomers for potential bioconjugation use.</b> 
+            <em>Abstracts of Papers, 228th ACS National Meeting, Philadelphia, PA, United States, August 22-26, 2004, PMSE-320</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Abstracts of Papers, 228th ACS National Meeting, Philadelphia, PA, United States, August 22-26, 2004, PMSE-320 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Guo Y, Wei Y, Lelkes PI, Ko FK, Zhou Y, and Levon K 
+            (2004) 
+            <b>Synthesis and characterization of thiolated aniline oligomers for potential bioconjugation use.</b> 
+            <em>PMSE Preprints, 91 585-586</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . PMSE Preprints, 91 585-586 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Wei Y, Lelkes PI, MacDiarmid AG, Guterman E, Cheng S, Palouian K, and Bidez PR 
+            (2004) 
+            <strong>Electroactive Polymers and Nanostructured Materials for Neural Tissue Engineering</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Rezvan A, Troop EM, Jain H, Simons DM, Morris DS, Allen FA, and Lelkes PI 
+            (2003) 
+            <b>Differential Gene Expression In Endothelial Cells: Fluid Shear Stress Stimulated Vs. Rotating Wall Vessel Bioreactor Cultured.</b> 
+            <em>Summer Bioengineering Conference, June 25-29, Sonesta Beach Resort in Key Biscayne, Florida</em> 
+            
+            <a href=http://www.tulane.edu/~sbc2003/pdfdocs/0537.PDF>Abstract</a> 
+            <a href=assets/Differential%20Gene%20Exression%20_Tulane%20Summer%20Bioengineering%202003.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Summer Bioengineering Conference, June 25-29, Sonesta Beach Resort in Key Biscayne, Florida 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Akhtar N, Maltz L, Lelkes E, Arthur R, Wiederholt J, and Unsworth BR 
+            (2002) 
+            <b>Vascularization of functional neuroendocrine tissue constructs generated in rotating wall vessel bioreactors.</b> 
+            <em>Endothelium 9: 65-66</em> 
+            
+            
+            <a href=assets/Unsworth_Neuroendocrine%202002.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Endothelium 9: 65-66 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, and Unsworth BR 
+            (2002) 
+            <strong>Neuroendocrine Tissue Engineering in RWV Bioreactors</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Brooks AR, Lelkes PI, and Rubanyi GM 
+            (2002) 
+            <b>Gene expression profiling of human aortic endothelial cells exposed to disturbed flow and steady laminar flow.</b> 
+            <em>Physiological Genomics [online computer file]    9(1), 27-41</em> 
+            <a href=http://dx.doi.org/10.1152/physiolgenomics.00075.2001>10.1152/physiolgenomics.00075.2001</a> 
+            <a href=http://physiolgenomicsphysiology.healthnih.com/cgi/content/abstract/9/1/27>Abstract</a> 
+            <a href=assets/33_Brooks_Gene%20expression.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Physiological Genomics [online computer file]    9(1), 27-41 
+          
+           doi: 10.1152/physiolgenomics.00075.2001  -->
+        </p>
+      
+        <p>
+           
+            Silverman MD, Tumuluri RJ, Davis M, Lopez G, Rosenbaum JT, and Lelkes PI 
+            (2002) 
+            <b>Homocysteine upregulates vascular cell adhesion molecule-1 expression in cultured human aortic endothelial cells and enhances monocyte adhesion.</b> 
+            <em>Arteriosclerosis, Thrombosis, and Vascular Biology 22(4), 587-592</em> 
+            <a href=http://dx.doi.org/10.1161/01.ATV.0000014221.30108.08>10.1161/01.ATV.0000014221.30108.08</a> 
+            <a href=http://atvb.ahajournals.org/content/22/4/587.short>Abstract</a> 
+            <a href=assets/34_Silverman_Homocysteine%20Upregulates.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Arteriosclerosis, Thrombosis, and Vascular Biology 22(4), 587-592 
+          
+           doi: 10.1161/01.ATV.0000014221.30108.08  -->
+        </p>
+      
+        <p>
+           
+            Guterman E, Cheng S, Palouian K, Bidez PR, Lelkes PI, and Wei Y 
+            (2002) 
+            <b>Peptide-modified electroactive polymers for tissue engineering applications.</b> 
+            <em>Abstracts of Papers, 224th ACS National Meeting, Boston, MA, United States, August 18-22, 2002 (2002), POLY-420</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Abstracts of Papers, 224th ACS National Meeting, Boston, MA, United States, August 18-22, 2002 (2002), POLY-420 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Guterman E, Cheng S, Palouian K, Bidez PR, Lelkes PI, and Wei Y 
+            (2002) 
+            <b>Peptide-modified electroactive polymers for tissue engineering applications.</b> 
+            <em>Polymer Preprints (American Chemical Society, Division of Polymer Chemistry) 43(2), 766-767</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Polymer Preprints (American Chemical Society, Division of Polymer Chemistry) 43(2), 766-767 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Papadimitriou E, Waters CR, Manolopoulos VG, Maragoudakis ME, Unsworth BR, and Lelkes PI 
+            (2001) 
+            <b>Regulation of Extracellular Matrix Deposition and MMP-2 Activation in Cultured Rat Adrenal Medullary Endothelial Cells.</b> 
+            <em>Endothelium, 8:243-53</em> 
+            <a href=http://dx.doi.org/10.3109/10623320109090801>10.3109/10623320109090801</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.3109/10623320109090801>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium, 8:243-53 
+          
+           doi: 10.3109/10623320109090801  -->
+        </p>
+      
+        <p>
+           
+            Lelkes E, Unsworth BR, and Lelkes PI 
+            (2001) 
+            <b>Reactive oxygen species, apoptosis and altered NGF-induced signaling in PC12 pheochromocytoma cells cultured in elevated glucose: an in vitro cellular model for diabetic neuropathy.</b> 
+            <em>Neurotoxicity Res. 3:189-203</em> 
+            
+            <a href=http://link.springer.com/article/10.1007/BF03033191>Abstract</a> 
+            <a href=assets/Efrat%20s%20INABIS2000_Neurotoxicity2002%20paper.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Neurotoxicity Res. 3:189-203 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Akhtar N, Lelkes E, Maltz L, Arthur R, Wiederholt J, and Unsworth BR 
+            (2001) 
+            <b>Neuroendocrine tissue engineering in rotating wall vessel bioreactors under simulated microgravity conditions.</b> 
+            <em>Proc. 23rd Annual International Conference of the IEEE, 3: 2987  - 2990</em> 
+            <a href=http://dx.doi.org/10.1109/IEMBS.2001.1017422>10.1109/IEMBS.2001.1017422</a> 
+            <a href=http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1017422&tag=1>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Proc. 23rd Annual International Conference of the IEEE, 3: 2987  - 2990 
+          
+           doi: 10.1109/IEMBS.2001.1017422  -->
+        </p>
+      
+        <p>
+           
+            Burnatowska-Hledin M, Zeneberg A, Roulo A, Grobe J, Zhao P, Lelkes PI, Clare P, Barney C 
+            (2001) 
+            <b>Expression of VACM-1 protein in cultured rat adrenal endothelial cells is linked to the cell cycle.</b> 
+            <em>Endothelium, 8(1), 49-63</em> 
+            <a href=http://dx.doi.org/10.3109/10623320109063157>10.3109/10623320109063157</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/11409851>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium, 8(1), 49-63 
+          
+           doi: 10.3109/10623320109063157  -->
+        </p>
+      
+        <p>
+           
+            Lelkes E, Unsworth BR, and Lelkes PI 
+            (2001) 
+            <b>Reactive oxygen species, apoptosis and altered NGF-induced signaling in PC12 pheochromocytoma cells cultured in elevated glucose: an in vitro cellular model for diabetic neuropathy.</b> 
+            <em>Neurotoxicity Research 3(2), 189-203</em> 
+            
+            <a href=http://link.springer.com/article/10.1007/BF03033191>Abstract</a> 
+            <a href=assets/38_Efrat_Reactive%20Oxygen.pdf    &    assets/Efrat%20sPaper_LelkesUnsworthLelkes_2001.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Neurotoxicity Research 3(2), 189-203 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Papadimitriou E, Waters CR, Manolopoulos VG, Unsworth BR, Maragoudakis ME, and Lelkes PI 
+            (2001) 
+            <b>Regulation of extracellular matrix remodeling and MMP-2 activation in cultured rat adrenal medullary endothelial cells.</b> 
+            <em>Endothelium 8(4), 243-253</em> 
+            
+            <a href=http://www.biomedsearch.com/nih/Regulation-extracellular-matrix-remodeling-MMP/11824476.html>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium 8(4), 243-253 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Brooks A, Sukovich D, and Rubanyi GM 
+            (2000) 
+            <b>Activation of Cultured Human Endothelial Cells Exposed to Perturbed Pulsatile Flow.</b> 
+            <em>6th Internet World Congress for Biomedical Sciences (INABIS2000)</em> 
+            
+            <a href=http://www.uclm.es/inabis2000/symposia/files/184/index.htm>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . 6th Internet World Congress for Biomedical Sciences (INABIS2000) 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Unsworth BR, and Lelkes PI 
+            (2000) 
+            <strong>Growing tissues in microgravity</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, and Waters CR 
+            (2000) 
+            <strong>Reactive Oxygen Species and Angiogenesis</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Nikolaychik VV, Chekanov VS, Hernandez I, Silverman MD, and Lelkes PI 
+            (2000) 
+            <b>Biodesign of a skeletal muscle flap as a model for cardiac assistance.</b> 
+            <em>Artificial organs (2000), 24(2), 137-47. Journal code: 7802778</em> 
+            <a href=http://dx.doi.org/10.1046/j.1525-1594.2000.024002137.x>10.1046/j.1525-1594.2000.024002137.x</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1046/j.1525-1594.2000.024002137.x/full>Abstract</a> 
+            <a href=assets/41_Nikolaychik_Biodesign%20of%20a%20Skeletal.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Artificial organs (2000), 24(2), 137-47. Journal code: 7802778 
+          
+           doi: 10.1046/j.1525-1594.2000.024002137.x  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Liekens S, Koolwijk P, Voets T, Peters E, Droogmans G, Lelkes PI, DeClercq E, and Nilius B 
+            (2000) 
+            <b>Inhibition of angiogenesis by blockers of volume-regulated anion channels.</b> 
+            <em>General Pharmacology 34(2), 107-116</em> 
+            
+            <a href=http://www.sciencedirect.com/science/article/pii/S0306362300000525>Abstract</a> 
+            <a href=assets/42_Manolopoulos_Inhibition%20of%20angiogenesis.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . General Pharmacology 34(2), 107-116 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Unsworth BR, Hayman GT, and Lelkes PI 
+            (1999) 
+            <b>Tissue-specific alternative mRNA splicing of phenolethanolamine-N-methyl tranferase (PNMT) during development by intron retention.</b> 
+            <em>International Journal of Developmental Neuroscience, 17:45-55</em> 
+            
+            <a href=http://www.sciencedirect.com/science/article/pii/S0736574898000586>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . International Journal of Developmental Neuroscience, 17:45-55 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+             
+            (1999) 
+            <strong>Differential regulation of endothelial cell surface molecules by diverse hemodynamic forces</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Samet MM, and Lelkes PI 
+            (1999) 
+            <strong>The hemodynamic environment of endothelium in vivo and its simulation in vitro</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Samet MM, Nikolaychik VN, and Lelkes PI 
+            (1999) 
+            <strong>Surface precoating in the 1990's: the fine tuning of endothelial cell transplantation</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Kuehn R, Lelkes PI, Bloechle C, Niendorf A, and Izbicki JR 
+            (1999) 
+            <b>Angiogenesis, angiogenic growth factors, and cell adhesion molecules are upregulated in chronic pancreatic diseases: angiogenesis in chronic pancreatitis and in pancreatic cancer.</b> 
+            <em>Pancreas 18(1), 96-103</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/9888665?dopt=Abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Pancreas 18(1), 96-103 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Abu-Raya S, Bloch-Shilderman E, Lelkes PI, Trembovler V, Shohami E, Gutman Y, and Lazarovici P 
+            (1999) 
+            <b>Characterization of pardaxin-induced dopamine release from pheochromocytoma cells: role of calcium and eicosanoids.</b> 
+            <em>Journal of Pharmacology and Experimental Therapeutics, 288(2), 399-406</em> 
+            
+            <a href=http://jpet.aspetjournals.org/content/288/2/399.short>Abstract</a> 
+            <a href=assets/44_Abu-Raya_Characterization%20of%20Pardaxin.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Pharmacology and Experimental Therapeutics, 288(2), 399-406 
+          
+           -->
+        </p>
+      
+        <p>
+           
+             
+            (1999) 
+            <b>Differential regulation of endothelial cell surface molecules by diverse hemodynamic forces.</b> 
+            <em>Endothelial Cell Research Series (1999), 6(Mechanical Forces and the Endothelium), 221-248</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Endothelial Cell Research Series (1999), 6(Mechanical Forces and the Endothelium), 221-248 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Silverman MD, Waters CR, Hayman GT, Wigboldus J, Samet MM, and Lelkes, PI 
+            (1999) 
+            <b>Tissue factor activity is increased in human endothelial cells cultured under elevated static pressure.</b> 
+            <em>American Journal of Physiology, 277(2, Pt. 1), C233-C242</em> 
+            
+            
+            <a href=assets/47_Silverman_Tissue%20factor%20activity.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . American Journal of Physiology, 277(2, Pt. 1), C233-C242 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Unsworth BR, Hayman GT, Carroll A, and Lelkes PI 
+            (1999) 
+            <b>Tissue-specific alternative mRNA splicing of phenylethanolamine N-methyltransferase (PNMT) during development by intron retention.</b> 
+            <em>International Journal of Developmental Neuroscience, 17(1), 45-55</em> 
+            <a href=http://dx.doi.org/10.1016/S0736-5748(98)00058-6>10.1016/S0736-5748(98)00058-6</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0736574898000586>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . International Journal of Developmental Neuroscience, 17(1), 45-55 
+          
+           doi: 10.1016/S0736-5748(98)00058-6  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Galvan DL, Hayman GT, Goodwin TJ, Chatman DY, Cherian S, Garcia RMG, and Unsworth BR 
+            (1998) 
+            <b>Simulated microgravity conditions enhance differentiation of cultured PC12 cells towards the neuroendocrine phenotype.</b> 
+            <em>In Vitro Cell Dev Biol, 34:316-325</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . In Vitro Cell Dev Biol, 34:316-325 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Chekanov VS, Nikolaychik VV, Rieder Ma, Tchekanov GV, Hernandez I, Eisenstein R, Francischelli D, Lelkes PI, and Schmidt DH 
+            (1998) 
+            <b>Autologous biological glue and aprotinin prevent latissiumus dorsi muscle postmobilization ischemia.</b> 
+            <em>Basic and Applied Myology 8:211-219</em> 
+            
+            
+            <a href=assets/Chekanov%20et%20al_1998.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Basic and Applied Myology 8:211-219 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Unsworth BR, and Lelkes PI 
+            (1998) 
+            <b>Growing Tissues in Microgravity.</b> 
+            <em>Nature Medicine, 4:901-908</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Nature Medicine, 4:901-908 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Nikolachik VV, Ferguson JJ, Lelkes PI, Horn J, and Kipshidze N 
+            (1998) 
+            <b>Fibrin meshwork sealing after artery catheterization: optimization and mechanisms.</b> 
+            <em>Int J. Cardiovasc. Med. Sci. 1:191-198</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Int J. Cardiovasc. Med. Sci. 1:191-198 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Hahn KA, Sukovich DA, Karmiol S, and Schmidt DH 
+            (1998) 
+            <b>On the possible role of reactive oxygen species in angiogenesis.</b> 
+            <em>Adv Exp Med Biol, 454:295-310</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Adv Exp Med Biol, 454:295-310 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Unsworth BR 
+            (1998) 
+            <b>Cellular signaling mechanisms involved in the 3-dimensional assembly and differentiation of PC12 pheochromocytoma cells under simulated microgravity in NASA rotating wall vessel bioreactors.</b> 
+            <em>J Amer Soc Mech Eng, Adv. Heat and Mass Transfer, 362:35-41</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . J Amer Soc Mech Eng, Adv. Heat and Mass Transfer, 362:35-41 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Kettlun CS, Waters CR, Wigboldus J, Sukovich DA, and Rubanyi GM 
+            (1998) 
+            <b>Signaling mechanisms involved in endothelial cell activation by perturbed flow.</b> 
+            <em>5th Internet World Congress for Biomedical Sciences</em> 
+            
+            <a href=http://www.mcmaster.ca/inabis98/nilius/lelkes0243/index.html>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . 5th Internet World Congress for Biomedical Sciences 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Unsworth BR, and Lelkes PI 
+            (1998) 
+            <strong>The use of rotating wall bioreactors for the assembly of differentiated tissue-like organoids</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Kanda Keiichi, Hayman GT, Silverman MD, and Lelkes PI 
+            (1998) 
+            <b>Comparison of ICAM-1 and VCAM-1 expression in various human endothelial cell types and smooth muscle cells.</b> 
+            <em>Endothelium, 6(1), 33-44</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/9832331?dopt=Abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium, 6(1), 33-44 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Unsworth BR, and Lelkes PI 
+            (1998) 
+            <b>Growing tissues in microgravity.</b> 
+            <em>Nature Medicine (New York), 4(8), 901-907</em> 
+            
+            
+            <a href=assets/50_Unsworth_Growing%20Tissues.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Nature Medicine (New York), 4(8), 901-907 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Hahn KA, Karmiol S, and Schmidt DH 
+            (1998) 
+            <b>Hypoxia/reoxygenation enhances tube formation of cultured human microvascular endothelial cells: the role of reactive oxygen species.</b> 
+            <em>NATO ASI Series, Series A: Life Sciences, 298(Angiogenesis), 321-336</em> 
+            <a href=http://dx.doi.org/10.1007/978-1-4757-9185-3_31>10.1007/978-1-4757-9185-3_31</a> 
+            <a href=http://link.springer.com/chapter/10.1007/978-1-4757-9185-3_31>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . NATO ASI Series, Series A: Life Sciences, 298(Angiogenesis), 321-336 
+          
+           doi: 10.1007/978-1-4757-9185-3_31  -->
+        </p>
+      
+        <p>
+           
+            Henry MK, Unsworth BR, Sychev V, Guryeva TS, Dadasheva OA, Piert SJ, Lagel KE, Dubrovin LC, Jahns GC, Boda K, Sabo V, Samet MM, and Lelkes PI 
+            (1998) 
+            <b>Launch conditions might affect the formation of blood vessels in the quail chorioallantoic membrane.</b> 
+            <em>Folia veterinaria, 42 Suppl S25-31</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/11543304?dopt=Citation>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Folia veterinaria, 42 Suppl S25-31 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Hahn KL, Sukovich DA, Karmiol S, and Schmidt DH 
+            (1998) 
+            <b>On the possible role of reactive oxygen species in angiogenesis.</b> 
+            <em>Advances in experimental medicine and biology, 454 295-310</em> 
+            <a href=http://dx.doi.org/10.1007/978-1-4615-4863-8_35>10.1007/978-1-4615-4863-8_35</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/9889904?dopt=Abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Advances in experimental medicine and biology, 454 295-310 
+          
+           doi: 10.1007/978-1-4615-4863-8_35  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Calvan DL, Hayman GT, Goodwin TJ, Chatman DY, Cherian S, Garcia RMG, and Unsworth BR 
+            (1998) 
+            <b>Simulated microgravity conditions enhance differentiation of cultured PC12 cells towards the neuroendocrine phenotype.</b> 
+            <em>In Vitro Cellular &amp, Developmental Biology: Animal, 34(4), 316-325</em> 
+            <a href=http://dx.doi.org/10.1007/s11626-998-0008-y>10.1007/s11626-998-0008-y</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/9590505?dopt=Abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . In Vitro Cellular &amp, Developmental Biology: Animal, 34(4), 316-325 
+          
+           doi: 10.1007/s11626-998-0008-y  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Fenton JW, and Lelkes PI 
+            (1997) 
+            <b>The thrombin receptor in adrenal medullary microvascular endothelial cells is negatively coupled to adenylyl cyclase through a Gi protein.</b> 
+            <em>Biochim. Biophys. Acta, 1356:321-332</em> 
+            <a href=http://dx.doi.org/10.1016/S0167-4889(97)00002-5>10.1016/S0167-4889(97)00002-5</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0167488997000025>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochim. Biophys. Acta, 1356:321-332 
+          
+           doi: 10.1016/S0167-4889(97)00002-5  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Fenton JW, and Lelkes PI 
+            (1997) 
+            <b>The thrombin receptor in adrenal medullary microvascular endothelial cells is negatively coupled to adenylyl cyclase through a Gi protein.</b> 
+            <em>Biochimica et Biophysica Acta, Molecular Cell Research, 1356(3), 321-332</em> 
+            <a href=http://dx.doi.org/10.1016/S0167-4889(97)00002-5>10.1016/S0167-4889(97)00002-5</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0167488997000025>Abstract</a> 
+            <a href=assets/57_Manolopoulos_The%20thrombin%20receptor.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biochimica et Biophysica Acta, Molecular Cell Research, 1356(3), 321-332 
+          
+           doi: 10.1016/S0167-4889(97)00002-5  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Thomas GA, Lelkes PI, Chick DM, Hammond RL, Lu H, Nakajima H, Isoda S, Nakajima HO, and Stephenson LW 
+            (1997) 
+            <strong>Skeletal muscle ventricles: In search of thromboresistant linings</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Nikolaychik VV, Chekanov VS, Silverman MD, Samet MM, Schmidt DH, and Lelkes PI 
+            (1997) 
+            <strong>Successful dynamic cardiomyoplasty with pharmaceutical support</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-4-431-65921-1_81  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Nikolaychik VV, Silverman MD, Samet MM, Wankowski DM and Lelkes PI 
+            (1997) 
+            <strong>Durability of endothelial cell monolayers inside a beating cardiac prosthesis</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-4-431-65921-1_18  -->
+        </p>
+      
+        <p>
+           
+            Jiang H, Movsesyan V, Fink DW, Fasler M, Whalin M, Katagiri Y, Monshipouri M, Dickens G, Lelkes PI, Guroff G, and Lazarovici P 
+            (1997) 
+            <b>Expression of human p140trk receptors in p140trk-deficient, PC12/endothelial cells results in nerve growth factor-induced signal transduction and DNA synthesis.</b> 
+            <em>Journal of Cellular Biochemistry, 66(2), 229-244</em> 
+            <a href=http://dx.doi.org/10.1002/(SICI)1097-4644(19970801)66:2<229::AID-JCB10>3.0.CO,2-C>10.1002/(SICI)1097-4644(19970801)66:2<229::AID-JCB10>3.0.CO,2-C</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1097-4644(19970801)66:2%3C229::AID-JCB10%3E3.0.CO,2-C/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Cellular Biochemistry, 66(2), 229-244 
+          
+           doi: 10.1002/(SICI)1097-4644(19970801)66:2<229::AID-JCB10>3.0.CO,2-C  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Ramos E, Nikolaychik VV, Wankowski DM, Unsworth BR, and Goodwin TJ 
+            (1997) 
+            <b>GTSF-2: a new, versatile cell culture medium for diverse normal and transformed mammalian cells. In Vitro Cellular &amp.</b> 
+            <em>Developmental Biology: Animal (1997), 33(5), 344-351</em> 
+            <a href=http://dx.doi.org/10.1007/s11626-997-0004-7>10.1007/s11626-997-0004-7</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/9196892?dopt=Abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Developmental Biology: Animal (1997), 33(5), 344-351 
+          
+           doi: 10.1007/s11626-997-0004-7  -->
+        </p>
+      
+        <p>
+           
+            Papadimitriou E, Manolopoulos VG, Hayman GT, Maragoudakis ME, Unsworth BR, Fenton JW, and Lelkes PI 
+            (1997) 
+            <b>Thrombin modulates vectorial secretion of extracellular matrix proteins in cultured endothelial cells.</b> 
+            <em>American Journal of Physiology, 272(4, Pt. 1), C1112-C1122</em> 
+            
+            <a href=http://www.researchgate.net/publication/14075279_Thrombin_modulates_vectorial_secretion_of_extracellular_matrix_proteins_in_cultured_endothelial_cells/file/d912f50981c1c993d7.pdf>Abstract</a> 
+            <a href=assets/58_Papadimitriou_Thrombin%20modulates.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . American Journal of Physiology, 272(4, Pt. 1), C1112-C1122 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Nikolaychik VV, Samet MM, Wankowski DM, and Chekanov V 
+            (1996) 
+            <strong>Factitious angiogenesis III: How to successfully endothelialize artificial cardiovascular bioprostheses by employing natural angiogenic mechanisms</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4613-0389-3_21  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Manolopoulos VG, Silverman MD, Zhang S, Karmiol S, and Unsworth BR 
+            (1996) 
+            <strong>On the possible role of endothelial cell heterogeneity in angiogenesis</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4613-0389-3_1  -->
+        </p>
+      
+        <p>
+           
+            Nikolaychik VV, Samet MM, and Lelkes PI 
+            (1996) 
+            <b>A new method for continual quantitation of viable cells on endothelialized polyurethanes.</b> 
+            <em>Journal of Biomaterials Science, Polymer Edition, 7(10), 881-891</em> 
+            <a href=http://dx.doi.org/10.1163/156856296X00057>10.1163/156856296X00057</a> 
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/8836834?dopt=Abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Biomaterials Science, Polymer Edition, 7(10), 881-891 
+          
+           doi: 10.1163/156856296X00057  -->
+        </p>
+      
+        <p>
+           
+            Chekanov VS, Tchekanov GV, Rieder MA, Eisenstein R, Wankowski DM, Schmidt DH, Nikolaychik VV, and Lelkes PI 
+            (1996) 
+            <b>Biologic glue increases capillary ingrowth after cardiomyoplasty in an ischemic cardiomyopathy model.</b> 
+            <em>ASAIO Journal, 42(5), M480-M487</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1996/09000/Biologic_Glue_Increases_Capillary_Ingrowth_After.34.aspx>Abstract</a> 
+            <a href=assets/Chekanov%20et%20al_1996.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . ASAIO Journal, 42(5), M480-M487 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Nikolaychik VV, Wankowski DM, Samet MM, and Lelkes PI 
+            (1996) 
+            <b>In vitro testing of endothelial cell monolayers under dynamic conditions inside a beating ventricular prosthesis.</b> 
+            <em>ASAIO journal (American Society for Artificial Internal Organs, 42(5), M487-94</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1996/09000/In_Vitro_Testing_of_Endothelial_Cell_Monolayers.35.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO journal (American Society for Artificial Internal Organs, 42(5), M487-94 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Manolopoulos VG, Silverman MD, Zhang S, Karmiol S, and Unsworth BR 
+            (1996) 
+            <b>On the possible role of endothelial cell heterogeneity in angiogenesis.</b> 
+            <em>NATO ASI Series, Series A: Life Sciences, 285(Molecular, Cellular, and Clinical Aspects of Angiogenesis), 1-17</em> 
+            <a href=http://dx.doi.org/10.1007/978-1-4613-0389-3_1>10.1007/978-1-4613-0389-3_1</a> 
+            <a href=http://link.springer.com/chapter/10.1007/978-1-4613-0389-3_1>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . NATO ASI Series, Series A: Life Sciences, 285(Molecular, Cellular, and Clinical Aspects of Angiogenesis), 1-17 
+          
+           doi: 10.1007/978-1-4613-0389-3_1  -->
+        </p>
+      
+        <p>
+           
+            Rasouly D, Shavit D, Zúñiga R, Elejalde RB, Unsworth BR, Yayaon A, Lazarovici P, and Lelkes PI 
+            (1996) 
+            <b>Staurosporine induces neurite outgrowth in neuronal hybrids (PC12EN) lacking NGF receptors.</b> 
+            <em>Journal of Cellular Biochemistry, 62(3), 356-371</em> 
+            
+            
+            <a href=assets/63_Rasouly_Staurosporine%20Induces.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Journal of Cellular Biochemistry, 62(3), 356-371 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Garcia RMG, Atwater I, Lelkes PI, and Mathias PCF 
+            (1996) 
+            <b>The inhibition of K+-secretory response by caffeine in bovine chromaffin cells is time dependent.</b> 
+            <em>Research Communications in Alcohol and Substances of Abuse, 17(1&amp,2), 15-21</em> 
+            
+            <a href=http://cat.inist.fr/?aModele=afficheN&cpsidt=3214163>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Research Communications in Alcohol and Substances of Abuse, 17(1&amp,2), 15-21 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Shilderman-Bloch E, Abu-Raya S, Rasouly D, Furman O, Trumbovler V, Shavit D, Lelkes PI, Shohami E, Gutman Y, and Lazarovici P 
+            (1996) 
+            <b>The role of calcium, protein kinase C, pertussis toxin substrates and eicosanoids on pardaxin induced dopamine release from PC12 pheochromocytoma cells.</b> 
+            <em>Biochemical Aspects of Marine Pharmacology, 158-174</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Biochemical Aspects of Marine Pharmacology, 158-174 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Silverman MD, Manolopoulos VG, Unsworth BR, and Lelkes PI 
+            (1996) 
+            <b>Tissue factor expression is differentially modulated by cyclic mechanical strain in various human endothelial cells.</b> 
+            <em>Blood Coagulation &amp, Fibrinolysis (1996), 7(3), 281-288</em> 
+            
+            <a href=http://journals.lww.com/bloodcoagulation/Abstract/1996/04000/Tissue_factor_expression_is_differentially.1.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Blood Coagulation &amp, Fibrinolysis (1996), 7(3), 281-288 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Liu J, Unsworth BR, and Lelkes PI 
+            (1995) 
+            <b>Adenylyl cyclase isoforms are differentially expressed in primary cultures of endothelial cells and whole tissue homogenates from various rat issues.</b> 
+            <em>Biochem Biophys Res Commun, 208:323-331</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Biochem Biophys Res Commun, 208:323-331 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Thomas GA, Lelkes PI, Chick DM, Isoda S, Lu H, Nakajima H, Hammond RL, Nakajima H, Walters HL, and Stephenson LW 
+            (1995) 
+            <b>Skeletal muscle ventricles seeded with autogenous endothelium.</b> 
+            <em>ASAIO J, 41:204-211</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1995/06000/Skeletal_Muscle_Ventricles_Seeded_With_Autogenous.16.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO J, 41:204-211 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Thomas GA, Lelkes PI, Isoda S, Chick DM, Lu H, Hammond RL, Nakajima H, Walters HL, and Stephenson LW 
+            (1995) 
+            <b>Endothelial cell-lined skeletal muscle ventricles in circulation.</b> 
+            <em>J Thorac Cardiovasc Surgery, 109:66-73.</em> 
+            <a href=http://dx.doi.org/10.1016/S0022-5223(95)70421-3>10.1016/S0022-5223(95)70421-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0022522395704213>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Thorac Cardiovasc Surgery, 109:66-73. 
+          
+           doi: 10.1016/S0022-5223(95)70421-3  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Samet MM, and Lelkes PI 
+            (1995) 
+            <b>Regulation of the adenylyl cyclase signaling system in various types of cultured endothelial cells.</b> 
+            <em>J Cell Biochem, 57:590-598</em> 
+            <a href=http://dx.doi.org/10.1002/jcb.240570403>10.1002/jcb.240570403</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jcb.240570403/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Cell Biochem, 57:590-598 
+          
+           doi: 10.1002/jcb.240570403  -->
+        </p>
+      
+        <p>
+           
+            Samad F, Bergtrom G, Lelkes PI, and Amrani DL 
+            (1995) 
+            <b>Differential cytokine regulation of PAI-1 gene expression between human umbilical and subcutaneous fat-derived microvascular endothelial cells.</b> 
+            <em>Endothelium, 3:243-252</em> 
+            <a href=http://dx.doi.org/10.3109/10623329509024670>10.3109/10623329509024670</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.3109/10623329509024670>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium, 3:243-252 
+          
+           doi: 10.3109/10623329509024670  -->
+        </p>
+      
+        <p>
+           
+            Thomas GA, Lelkes PI, Chick DM, Lu H, Kowal TA, Hammond RL, Nakajima H, and Stephenson LW 
+            (1995) 
+            <b>Endothelial lined skeletal muscle ventricles: Open and percutaneous techniques.</b> 
+            <em>J. Card Surg, 10:245-256</em> 
+            <a href=http://dx.doi.org/10.1111/j.1540-8191.1995.tb00605.x>10.1111/j.1540-8191.1995.tb00605.x</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1111/j.1540-8191.1995.tb00605.x/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J. Card Surg, 10:245-256 
+          
+           doi: 10.1111/j.1540-8191.1995.tb00605.x  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Liu J, Unsworth BR, as Lelkes PI 
+            (1995) 
+            <b>Adenylyl cyclase isoforms are differentially expressed in primary cultures of endothelial cells and whole tissue homogenates from various rat tissues.</b> 
+            <em>Biochemical and Biophysical Research Communications, 208(1), 323-31</em> 
+            <a href=http://dx.doi.org/10.1006/bbrc.1995.1341>10.1006/bbrc.1995.1341</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0006291X85713411>Abstract</a> 
+            <a href=assets/67_Manolopoulos_Adenylyl%20cyclase.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biochemical and Biophysical Research Communications, 208(1), 323-31 
+          
+           doi: 10.1006/bbrc.1995.1341  -->
+        </p>
+      
+        <p>
+           
+            Samad F, Bergtrom G, Lelkes PI, Rajappa V, Amrani DL 
+            (1995) 
+            <b>Differential cytokine regulation of PAI-1 gene expression between human umbilical and subcutaneous fat-derived microvascular endothelial cells.</b> 
+            <em>Endothelium, 3(3), 243-52</em> 
+            <a href=http://dx.doi.org/10.3109/10623329509024670>10.3109/10623329509024670</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.3109/10623329509024670>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium, 3(3), 243-52 
+          
+           doi: 10.3109/10623329509024670  -->
+        </p>
+      
+        <p>
+           
+            Thomas GA, Lelkes PI, Isoda S, Chick DM, Lu H, Hammond RL, Nakajima H, Nakajima H, Walters HL, and Stephenson LW 
+            (1995) 
+            <b>Endothelial cell-lined skeletal muscle ventricles in circulation.</b> 
+            <em>Journal of thoracic and cardiovascular surgery, 109(1), 66-73.</em> 
+            <a href=http://dx.doi.org/10.1016/S0022-5223(95)70421-3>10.1016/S0022-5223(95)70421-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0022522395704213>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of thoracic and cardiovascular surgery, 109(1), 66-73. 
+          
+           doi: 10.1016/S0022-5223(95)70421-3  -->
+        </p>
+      
+        <p>
+           
+            Thomas GA, Lelkes PI, Chick DM, Lu H, Kowal TA, Hammond RL, Nakajima H, Nakajima H, Spanta AD, and Stephenson LW 
+            (1995) 
+            <b>Endothelial lined skeletal muscle ventricles: open and percutaneous seeding techniques.</b> 
+            <em>Journal of cardiac surgery, 10(3), 245-56</em> 
+            <a href=http://dx.doi.org/10.1111/j.1540-8191.1995.tb00605.x>10.1111/j.1540-8191.1995.tb00605.x</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1111/j.1540-8191.1995.tb00605.x/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of cardiac surgery, 10(3), 245-56 
+          
+           doi: 10.1111/j.1540-8191.1995.tb00605.x  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, Samet MM, and Lelkes PI 
+            (1995) 
+            <b>Regulation of the adenylyl cyclase signaling system in various types of cultured endothelial cells.</b> 
+            <em>Journal of Cellular Biochemistry, 57(4), 590-8</em> 
+            <a href=http://dx.doi.org/10.1002/jcb.240570403>10.1002/jcb.240570403</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jcb.240570403/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Cellular Biochemistry, 57(4), 590-8 
+          
+           doi: 10.1002/jcb.240570403  -->
+        </p>
+      
+        <p>
+           
+            Thomas GA, Lelkes PI, Chick DM, Isoda S, Lu H, Nakajima H, Hammond RL, Nakajima H, Walters HL, and Stephenson LW 
+            (1995) 
+            <b>Skeletal muscle ventricles seeded with autogenous endothelium.</b> 
+            <em>ASAIO journal (American Society for Artificial Internal Organs : 1992) (1995), 41(2), 204-11</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1995/06000/Skeletal_Muscle_Ventricles_Seeded_With_Autogenous.16.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO journal (American Society for Artificial Internal Organs : 1992) (1995), 41(2), 204-11 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lin HB, Sun W, Mosher DF, Garcia-Echeverria C, Schaufelberger K, Lelkes PI, and Cooper SI 
+            (1994) 
+            <b>Synthesis, surface, and cell-adhesion properties of polyurethanes containing covalently grafted RGD-peptides.</b> 
+            <em>J Biomed Mater Res, 28: 329-342</em> 
+            <a href=http://dx.doi.org/10.1002/jbm.820280307>10.1002/jbm.820280307</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jbm.820280307/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biomed Mater Res, 28: 329-342 
+          
+           doi: 10.1002/jbm.820280307  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Gao H, Edgerton JR, and Christensen CW 
+            (1994) 
+            <b>Endothelial cell seeding of latissimus dorsi muscle pouches.</b> 
+            <em>J Surg Res, 57:460-469</em> 
+            <a href=http://dx.doi.org/10.1006/jsre.1994.1171>10.1006/jsre.1994.1171</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0022480484711711>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Surg Res, 57:460-469 
+          
+           doi: 10.1006/jsre.1994.1171  -->
+        </p>
+      
+        <p>
+           
+             
+            (1994) 
+            <b>Cytotoxicity of carbobenzoxy-protected amino acids, Letter to the editor.</b> 
+            <em>In Vitro Cell Dev Biol, 30A:75-76</em> 
+            <a href=http://dx.doi.org/10.1007/BF02631394>10.1007/BF02631394</a> 
+            <a href=http://link.springer.com/article/10.1007%2FBF02631394?LI=true>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . In Vitro Cell Dev Biol, 30A:75-76 
+          
+           doi: 10.1007/BF02631394  -->
+        </p>
+      
+        <p>
+           
+            Samet MM, and Lelkes PI 
+            (1994) 
+            <b>Pulsatile flow and endothelial cell morphology in a cell culture chamber model of an artificial cardiac ventricle.</b> 
+            <em>J Biomech Eng, 116:369-371.</em> 
+            <a href=http://dx.doi.org/10.1115/1.2895744>10.1115/1.2895744</a> 
+            <a href=http://biomechanical.asmedigitalcollection.asme.org/article.aspx?articleid=1399915>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biomech Eng, 116:369-371. 
+          
+           doi: 10.1115/1.2895744  -->
+        </p>
+      
+        <p>
+           
+            Samet MM, and Lelkes PI 
+            (1994) 
+            <b>Flow patterns and endothelial cell morphology in a simplified model of an artificial ventricle.</b> 
+            <em>Cell Biophys and Bioeng, 23:139-163</em> 
+            <a href=http://dx.doi.org/10.1007/BF02796510>10.1007/BF02796510</a> 
+            <a href=http://link.springer.com/article/10.1007/BF02796510>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Cell Biophys and Bioeng, 23:139-163 
+          
+           doi: 10.1007/BF02796510  -->
+        </p>
+      
+        <p>
+           
+            Haralabopoulos GC, Grant DS, Kleinman HK, Lelkes PI, Papaioannou SP, and Maragoudakis ME 
+            (1994) 
+            <b>Inhibitors of basement membrane collagen biosynthesis prevent endothelial cell alignment in Matrigel in vitro and angiogenesis in vivo.</b> 
+            <em>Lab Investigations, 71:575-582.</em> 
+            
+            <a href=http://europepmc.org/abstract/MED/7526036>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Lab Investigations, 71:575-582. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+             
+            (1994) 
+            <b>Conference Report: Endothelial Cell Heterogeneity and Organ-Specificity.</b> 
+            <em>Endothelium, 2:139-141</em> 
+            <a href=http://dx.doi.org/10.3109/10623329309100959>10.3109/10623329309100959</a> 
+            <a href=http://informahealthcare.com/doi/abs/10.3109/10623329309100959?journalCode=gend>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Endothelium, 2:139-141 
+          
+           doi: 10.3109/10623329309100959  -->
+        </p>
+      
+        <p>
+           
+            Nikolaychik VV, Samet MM, and Lelkes PI 
+            (1994) 
+            <b>A new, cryoprecipitate based coating for improved endothelial cell attachment and growth on medical grade artificial surfaces.</b> 
+            <em>ASAIO J, 40:M846-M852</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1994/07000/A_New,_Cryoprecipitate_Based_Coating_for_Improved.117.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO J, 40:M846-M852 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Samet MM, Wankowski DM, Nikolaychik V, and Lelkes PI 
+            (1994) 
+            <b>Endothelial cell seeding with rotation of a ventricular blood sac.</b> 
+            <em>ASAIO J, 40:M319-M324.</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1994/07000/Endothelial_Cell_Seeding_with_Rotation_of_a.16.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO J, 40:M319-M324. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Ramos E, Chick DM, Liu J, and Unsworth BR 
+            (1994) 
+            <b>Microgravity decreases tyrosine hydroxylase expression in rat adrenals.</b> 
+            <em>FASEB J, 8:1177-118</em> 
+            
+            <a href=http://www.fasebj.org/content/8/14/1177.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FASEB J, 8:1177-118 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Chick DM, Samet MM, Nikolaychik V, Thomas GA, Hammond RL, Isoda S, and Stephenson LW 
+            (1994) 
+            <strong>Factitious Angiogenesis: Not so factitious anymore? The role of angiogenic processes in the endothelialization of artificial cardiovascular prostheses</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4757-9188-4_36  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Manolopoulos VG, Chick D, and Unsworth BR 
+            (1994) 
+            <strong>Endothelial cell heterogeneity and organ-specificity</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4757-9188-4_3  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Papadimitriou E, Unsworth BR, Maragoudakis ME, and Lelkes PI 
+            (1994) 
+            <strong>Quantitative analysis of extracellular matrix formation in vivo and in vitro</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4757-9188-4_33  -->
+        </p>
+      
+        <p>
+          
+
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Nikolaychik VV, Samet MM, and Lelkes PI 
+            (1994) 
+            <b>A new, cryoprecipitate based coating for improved endothelial cell attachment and growth on medical grade artificial surfaces.</b> 
+            <em>ASAIO journal (American Society for Artificial Internal Organs, 40(3), M846-52</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1994/07000/A_New,_Cryoprecipitate_Based_Coating_for_Improved.117.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO journal (American Society for Artificial Internal Organs, 40(3), M846-52 
+          
+           -->
+        </p>
+      
+        <p>
+           
+             
+            (1994) 
+            <b>Cytotoxicity of carbobenzoxy-protected amino acids.</b> 
+            <em>In vitro cellular &amp, developmental biology. Animal, 30A(2), 75-6</em> 
+            <a href=http://dx.doi.org/10.1007/BF02631394>10.1007/BF02631394</a> 
+            <a href=http://link.springer.com/article/10.1007%2FBF02631394?LI=true>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . In vitro cellular &amp, developmental biology. Animal, 30A(2), 75-6 
+          
+           doi: 10.1007/BF02631394  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Gao H, and Edgerton JR 
+            (1994) 
+            <b>Christensen CW Endothelial cell seeding of latissimus dorsi muscle pouches.</b> 
+            <em>Journal of surgical research, 57(4), 460-9</em> 
+            <a href=http://dx.doi.org/10.1006/jsre.1994.1171>10.1006/jsre.1994.1171</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0022480484711711>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of surgical research, 57(4), 460-9 
+          
+           doi: 10.1006/jsre.1994.1171  -->
+        </p>
+      
+        <p>
+           
+            Wankowski DM, Samet MM, Nikolaychik VV, and Lelkes PI 
+            (1994) 
+            <b>Endothelial cell seeding with rotation of a ventricular blood sac.</b> 
+            <em>ASAIO journal (American Society for Artificial Internal Organs, 40(3), M319-24</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1994/07000/Endothelial_Cell_Seeding_with_Rotation_of_a.16.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO journal (American Society for Artificial Internal Organs, 40(3), M319-24 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Haralabopoulos GC, Grant DS, Kleinman HK, Lelkes PI, Papaioannou SP, and Maragoudakis ME 
+            (1994) 
+            <b>Michael E. Inhibitors of basement membrane collagen synthesis prevent endothelial cell alignment in matrigel in vitro and angiogenesis in vivo.</b> 
+            <em>Laboratory Investigation, 71(4), 575-82</em> 
+            
+            <a href=http://europepmc.org/abstract/MED/7526036/reload=0,jsessionid=S16irgwozq2R7xJebbgS.8>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Laboratory Investigation, 71(4), 575-82 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Ramos EM, Chick DM, Liu J, and Unsworth BR 
+            (1994) 
+            <b>Microgravity decreases tyrosine hydroxylase expression in rat adrenals.</b> 
+            <em>FASEB Journal, 8(14), 1177-82</em> 
+            
+            <a href=http://www.fasebj.org/content/8/14/1177.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FASEB Journal, 8(14), 1177-82 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Samet MM, and Lelkes PI 
+            (1994) 
+            <b>Pulsatile flow and endothelial cell morphology in a cell culture chamber model of an artificial cardiac ventricle.</b> 
+            <em>Journal of biomechanical engineering, 116(3), 369-71</em> 
+            <a href=http://dx.doi.org/10.1115/1.2895744>10.1115/1.2895744</a> 
+            <a href=http://biomechanical.asmedigitalcollection.asme.org/article.aspx?articleid=1399915>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of biomechanical engineering, 116(3), 369-71 
+          
+           doi: 10.1115/1.2895744  -->
+        </p>
+      
+        <p>
+           
+            Lin, HB, Sun W, Mosher DF, Garcia-Echeverria C, Schaufelberger K, Lelkes PI, and Cooper SL 
+            (1994) 
+            <b>Synthesis, surface, and cell-adhesion properties of polyurethanes containing covalently grafted RGD-peptides.</b> 
+            <em>Journal of Biomedical Materials Research, 28(3), 329-42</em> 
+            <a href=http://dx.doi.org/10.1002/jbm.820280307>10.1002/jbm.820280307</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jbm.820280307/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Biomedical Materials Research, 28(3), 329-42 
+          
+           doi: 10.1002/jbm.820280307  -->
+        </p>
+      
+        <p>
+           
+            Manolopoulos VG, and Lelkes PI 
+            (1993) 
+            <b>Cyclic strain and forskolin differentially induce cAMP production in phenotypically diverse endothelial cells.</b> 
+            <em>Biochemical and Biophysical Research Communications, 191(3), 1379-85</em> 
+            <a href=http://dx.doi.org/10.1006/bbrc.1993.1370>10.1006/bbrc.1993.1370</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/S0006291X83713707>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochemical and Biophysical Research Communications, 191(3), 1379-85 
+          
+           doi: 10.1006/bbrc.1993.1370  -->
+        </p>
+      
+        <p>
+           
+            Wilke RA, Riley DA, Lelkes PI, and Hillard CJ 
+            (1993) 
+            <b>Decreased catecholamine secretion from the adrenal medullae of chronically diabetic BB-Wistar rats.</b> 
+            <em>Diabetes, 42(6), 862-8</em> 
+            <a href=http://dx.doi.org/10.2337/diab.42.6.862>10.2337/diab.42.6.862</a> 
+            <a href=http://diabetes.diabetesjournals.org/content/42/6/862.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Diabetes, 42(6), 862-8 
+          
+           doi: 10.2337/diab.42.6.862  -->
+        </p>
+      
+        <p>
+           
+            Samet MM, and Lelkes PI 
+            (1993) 
+            <b>Flow patterns and endothelial cell morphology in a simplified model of an artificial ventricle.</b> 
+            <em>Cell biophysics, 23(1-3), 139-63</em> 
+            <a href=http://dx.doi.org/10.1007/BF02796510>10.1007/BF02796510</a> 
+            <a href=http://link.springer.com/article/10.1007/BF02796510>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Cell biophysics, 23(1-3), 139-63 
+          
+           doi: 10.1007/BF02796510  -->
+        </p>
+      
+        <p>
+           
+            Papadimitriou E, and Lelkes PI 
+            (1993) 
+            <b>Measurement of cell numbers in microtiter culture plates using the fluorescent dye Hoechst 33258.</b> 
+            <em>Journal of immunological methods, 162(1), 41-5</em> 
+            <a href=http://dx.doi.org/10.1016/0022-1759(93)90405-V>10.1016/0022-1759(93)90405-V</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/002217599390405V>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of immunological methods, 162(1), 41-5 
+          
+           doi: 10.1016/0022-1759(93)90405-V  -->
+        </p>
+      
+        <p>
+           
+            Samet MM, Chick DM, Christensen CW, and Lelkes PI 
+            (1993) 
+            <b>Morphology and integrity of endothelial cell monolayers inside a ventricle shaped perfusion chamber.</b> 
+            <em>ASAIO journal (American Society for Artificial Internal Organs : 1992) (1993), 39(3), M403-9</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1993/07000/Morphology_and_Integrity_of_Endothelial_Cell.50.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO journal (American Society for Artificial Internal Organs : 1992) (1993), 39(3), M403-9 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, and Lelkes PI 
+            (1992) 
+            <b>Pardaxin evokes exocytotic catecholamine and ATP release from chromaffin cells independent of intracellular calcium.</b> 
+            <em>J Pharmacol Exp Ther 263:1317-1326.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . J Pharmacol Exp Ther 263:1317-1326. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Christensen CW, Samet MM, Chick DM, and Lelkes PI 
+            (1992) 
+            <b>Experimental studies of pulsatile flow and endothelial-cell adaptation in ventricle-shaped cell culture chambers.</b> 
+            <em>ASAIO J 38(3):M501-M506</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1992/07000/Experimental_Studies_of_Pulsatile_Flow_and.85.aspx>Abstract</a> 
+            <a href=assets/Christensen%20et%20al_ASAIO%201992.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . ASAIO J 38(3):M501-M506 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Samet MM, Christensen CW, Chick DM, and Lelkes PI 
+            (1992) 
+            <b>The importance of flow visualization for successful endothelialization of artificial ventricles.</b> 
+            <em>Wisc Prof Eng 11/12:14-16</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Wisc Prof Eng 11/12:14-16 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Maragoudakis ME, Gullino P, and Lelkes PI 
+            (1992) 
+            <b>Angiogenesis in health and diseases.</b> 
+            <em></em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Samet MM, Christensen CW and Amrani DL 
+            (1992) 
+            <strong>Factitious angiogenesis: endothelialization of artificial cardiovascular prostheses</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4615-3358-0_32  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, and Unsworth BR 
+            (1992) 
+            <strong>The role of heterotypic interactions between endothelial cells and parenchymal cells in organspecific differentiation: a possible trigger for vasculogenesis</strong> 
+          
+      
+          <!-- 
+          
+           doi: 10.1007/978-1-4615-3358-0_3  -->
+        </p>
+      
+        <p>
+          
+
+           
+            Maragoudakis ME, Gullino P, and Lelkes PI 
+            (1992) 
+            <strong>Angiogenesis in Health and Disease</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Christensen CW, Samet MM, Chick DM, and Lelkes PI 
+            (1992) 
+            <b>Experimental studies of pulsatile flow and endothelial cell adaptation in ventricle shaped cell culture chambers.</b> 
+            <em>ASAIO journal (American Society for Artificial Internal Organs, 38(3), M501-6</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1992/07000/Experimental_Studies_of_Pulsatile_Flow_and.85.aspx>Abstract</a> 
+            <a href=assets/Christensen%20et%20al_ASAIO%201992.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . ASAIO journal (American Society for Artificial Internal Organs, 38(3), M501-6 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, and Lelkes PI 
+            (1992) 
+            <b>Pardaxin induces exocytosis in bovine adrenal medullary chromaffin cells independent of calcium.</b> 
+            <em>Journal of Pharmacology and Experimental Therapeutics, 263(3), 1317-26</em> 
+            
+            <a href=http://jpet.aspetjournals.org/content/263/3/1317.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Pharmacology and Experimental Therapeutics, 263(3), 1317-26 
+          
+           -->
+        </p>
+      
+        <p>
+           
+             
+            (1991) 
+            <b>New aspects of endothelial cell biology.</b> 
+            <em>J Cell Biochem 45:242-244</em> 
+            <a href=http://dx.doi.org/10.1002/jcb.240450303>10.1002/jcb.240450303</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jcb.240450303/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Cell Biochem 45:242-244 
+          
+           doi: 10.1002/jcb.240450303  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Samet MM 
+            (1991) 
+            <b>Endothelialization of the luminal sac in artificial cardiac prostheses: A challenge for both biologists and engineers.</b> 
+            <em>J Biomech Eng 113:132-142.</em> 
+            <a href=http://dx.doi.org/10.1115/1.2891227>10.1115/1.2891227</a> 
+            <a href=http://biomechanical.asmedigitalcollection.asme.org/article.aspx?articleid=1398570>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biomech Eng 113:132-142. 
+          
+           doi: 10.1115/1.2891227  -->
+        </p>
+      
+        <p>
+           
+            Grant DS, Lelkes PI, Fukuda K, and Kleinman HK 
+            (1991) 
+            <b>Intracellular mechanisms involved in basement membrane induced blood vessel differentiation in vitro.</b> 
+            <em>In Vitro Cell Dev Biol 27A:327-336</em> 
+            <a href=http://dx.doi.org/10.1007/BF02630910>10.1007/BF02630910</a> 
+            <a href=http://link.springer.com/article/10.1007/BF02630910>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . In Vitro Cell Dev Biol 27A:327-336 
+          
+           doi: 10.1007/BF02630910  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Samet MM 
+            (1991) 
+            <b>Analysis of pulsatile flow and EC morphology in VAD-like cell culture chambers.</b> 
+            <em>ASAIO Trans 37: M1315-M1316.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . ASAIO Trans 37: M1315-M1316. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Yuli I, and Lelkes PI 
+            (1991) 
+            <b>Evaluation of an exoplasmic neutral endopeptidase activity in the interaction of human polymorphonuclear leukocytes with the chemoattractant N-formyl-L-methionyl-L-leucyl-L-phenylalanine.</b> 
+            <em>Eur J Biochem 177: 1-10.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Eur J Biochem 177: 1-10. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Samet MM 
+            (1991) 
+            <b>Endothelialization of the luminal sac in artificial cardiac prostheses: a challenge for both biologists and engineers.</b> 
+            <em>Journal of biomechanical engineering, 113(2), 132-42</em> 
+            <a href=http://dx.doi.org/10.1115/1.2891227>10.1115/1.2891227</a> 
+            <a href=http://biomechanical.asmedigitalcollection.asme.org/article.aspx?articleid=1398570>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of biomechanical engineering, 113(2), 132-42 
+          
+           doi: 10.1115/1.2891227  -->
+        </p>
+      
+        <p>
+           
+            Grant DS, Lelkes PI, Fukuda K, and Kleinman HK 
+            (1991) 
+            <b>Intracellular mechanisms involved in basement membrane induced blood vessel differentiation in vitro.</b> 
+            <em>In vitro cellular &amp, developmental biology : journal of the Tissue Culture Association, 27A(4), 327-36</em> 
+            <a href=http://dx.doi.org/10.1007/BF02630910>10.1007/BF02630910</a> 
+            <a href=http://link.springer.com/article/10.1007/BF02630910>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . In vitro cellular &amp, developmental biology : journal of the Tissue Culture Association, 27A(4), 327-36 
+          
+           doi: 10.1007/BF02630910  -->
+        </p>
+      
+        <p>
+           
+            Yuli I, and Lelkes PI 
+            (1991) 
+            <b>Neutral endopeptidase activity in the interaction of N-formyl-L-methionyl-L-leucyl-L-phenylalanine with human polymorphonuclear leukocytes.</b> 
+            <em>European Journal of Biochemistry, 201(2), 421-30</em> 
+            <a href=http://dx.doi.org/10.1111/j.1432-1033.1991.tb16300.x>10.1111/j.1432-1033.1991.tb16300.x</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1111/j.1432-1033.1991.tb16300.x/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . European Journal of Biochemistry, 201(2), 421-30 
+          
+           doi: 10.1111/j.1432-1033.1991.tb16300.x  -->
+        </p>
+      
+        <p>
+           
+             
+            (1991) 
+            <b>New aspects of endothelial cell biology.</b> 
+            <em>Journal of cellular biochemistry, 45(3), 242-4</em> 
+            <a href=http://dx.doi.org/10.1002/jcb.240450303>10.1002/jcb.240450303</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jcb.240450303/abstract>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of cellular biochemistry, 45(3), 242-4 
+          
+           doi: 10.1002/jcb.240450303  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Samet MM 
+            (1991) 
+            <b>Pulsatile flow and EC morphology in a VAD-like chamber.</b> 
+            <em>ASAIO transactions / American Society for Artificial Internal Organs, 37(3), M315-6</em> 
+            
+            <a href=http://journals.lww.com/asaiojournal/Abstract/1991/07000/Pulsatile_Flow_and_EC_Morphology_in_a_VAD_like.101.aspx>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . ASAIO transactions / American Society for Artificial Internal Organs, 37(3), M315-6 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Mizrachi Y, Naranjo JR, Pollard HB, and Lelkes PI 
+            (1990) 
+            <b>PC12 Cells differentiate into chromaffin cell like phenotype in co-culture with adrenal medullary endothelial cells.</b> 
+            <em>Proc Natl Acad Sci USA 87:6161-6185.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Proc Natl Acad Sci USA 87:6161-6185. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Brandi ML, Ornberg RL, Sakaguchi K, Curcio F, Fattorossi A, Lelkes PI, Matsui T, Zimering M, and Aurbach GD 
+            (1990) 
+            <b>Establishment and characterization of a clonal line of parathyroid endothelial cells.</b> 
+            <em>FASEB J 4:3152-3158.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . FASEB J 4:3152-3158. 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Samet MM, Gal R, and Amrani D 
+            (1990) 
+            <strong>Towards endothelialization of cardiac assist devices</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Gao H, Lelkes PI, Edgerton JR, Flemma RJ and Christensen CW 
+            (1990) 
+            <strong>Endothelialized latissimus dorsi pouches as possible replacements for cardiac muscle</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI and Pollard HB 
+            (1990) 
+            <strong>Cytoplasmic determinants of exocytotic membrane fusion</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+             
+            (1990) 
+            <strong>Preparation of liposomes by high pressure extrusion in the French press</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lazarovici P, Primor N, Gennaro J, Fox J, Shai Y, Lelkes PI, Caratsch CG, Raghunathan G, Guy HR, Shih YL, and Edwards C 
+            (1990) 
+            <strong>Origin, chemistry, and mechanisms of action of a repellent, presynaptic excitatory, ionophore polypeptide</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Brandi ML, Ornberg RL, Sakaguchi K, Curcio F, Fattorossi A, Lelkes PI, Matsui T, Zimering M, and Aurbach GD 
+            (1990) 
+            <b>Establishment and characterization of a clonal line of parathyroid endothelial cells.</b> 
+            <em>FASEB journal : official publication of the Federation of American Societies for Experimental Biology, 4(13), 3152-8</em> 
+            
+            
+            <a href=assets/Brandi%20et%20al_FASEB%20J_1990.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . FASEB journal : official publication of the Federation of American Societies for Experimental Biology, 4(13), 3152-8 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Primor N, Gennaro J, Fox J, Shai Y, Lelkes PI, Caratsch CG, Raghunathan G, Guy HR, Shih YL, and Edwards C 
+            (1990) 
+            <b>Origin, chemistry, and mechanisms of action of a repellent, presynaptic excitatory, ionophore polypeptide.</b> 
+            <em>ACS Symposium Series, 418(Mar. Toxins), 347-64.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . ACS Symposium Series, 418(Mar. Toxins), 347-64. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Mizrachi Y, Naranjo JR, Levi BZ, Pollard HB, and Lelkes PI 
+            (1990) 
+            <b>PC12 cells differentiate into chromaffin cell-like phenotype in coculture with adrenal medullary endothelial cells.</b> 
+            <em>Proceedings of the National Academy of Sciences of the United States of America, 87(16), 6161-5</em> 
+            <a href=http://dx.doi.org/10.1073/pnas.87.16.6161>10.1073/pnas.87.16.6161</a> 
+            <a href=http://www.pnas.org/content/87/16/6161.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Proceedings of the National Academy of Sciences of the United States of America, 87(16), 6161-5 
+          
+           doi: 10.1073/pnas.87.16.6161  -->
+        </p>
+      
+        <p>
+           
+            Mizrachi Y, Lelkes PI, Ornberg R, and Pollard HB 
+            (1989) 
+            <b>Specific interactions between PC12 cells and adrenomedullary endothelial cells in co-culture.</b> 
+            <em>Cell Tissue Res 256:365-372</em> 
+            <a href=http://dx.doi.org/10.1007/BF00218894>10.1007/BF00218894</a> 
+            <a href=http://link.springer.com/article/10.1007/BF00218894>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Cell Tissue Res 256:365-372 
+          
+           doi: 10.1007/BF00218894  -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Levi BZ, Lelkes PI, Koizumi S, Fujita K, Matsuda Y, Ozato K, and Guroff G 
+            (1989) 
+            <b>K-252a inhibits the increase in c-fos transcription and the increase in intracellular calcium produced by nerve growth factor in PC12 cells.</b> 
+            <em>J Neurosci Res 23:1-8</em> 
+            <a href=http://dx.doi.org/10.1002/jnr.490230102>10.1002/jnr.490230102</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jnr.490230102/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Neurosci Res 23:1-8 
+          
+           doi: 10.1002/jnr.490230102  -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Fujita K, Contreras ML, DiOrio JP, and Lelkes PI 
+            (1989) 
+            <b>Affinity-purified tetanus toxin binds to isolated chromaffin granules and inhibits catecholamine release in digitonin permeabilized chromaffin cells.</b> 
+            <em>FEBS Lett 253: 121-128.</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(89)80943-3>10.1016/0014-5793(89)80943-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579389809433>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Lett 253: 121-128. 
+          
+           doi: 10.1016/0014-5793(89)80943-3  -->
+        </p>
+      
+        <p>
+           
+            Fink D, Contreras ML, Lelkes PI, and Lazarovici P 
+            (1989) 
+            <b>Staphylococcus aureus -toxin activates phospholipases and induces a Ca2+ influx in PC12 cells.</b> 
+            <em>Cell Signal 1:387-393</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Cell Signal 1:387-393 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Criscuolo GR, Lelkes PI, Rotrosen D, and Oldfield EH 
+            (1989) 
+            <b>Cytosolic calcium changes in cultured endothelial cells induced by a protein product of human gliomas containing vascular permeability factor activity.</b> 
+            <em>J Neurosurg 71:884-891</em> 
+            
+            <a href=http://thejns.org/doi/abs/10.3171/jns.1989.71.6.0884>Abstract</a> 
+            <a href=assets/Criscuolo%20et%20a_J%20Neurosurg%201989.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . J Neurosurg 71:884-891 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lazarovici P, Primor N, Caratsch CG, Munz K, Lelkes PI, Loew LM, Shai Y, McPhie P, Luini A, Contreras ML, Fox J, Shih YL, and Edwards C 
+            (1989) 
+            <strong>Action on artificial and neuronal membranes of pardaxin, a new presynaptic excitatory polypeptide neurotoxin with ionophore activity</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Fujita K, Contreras ML, DiOrio JP, and Lelkes PI 
+            (1989) 
+            <b>Affinity purified tetanus toxin binds to isolated chromaffin granules and inhibits catecholamine release in digitonin-permeabilized chromaffin cells.</b> 
+            <em>FEBS Letters, 253(1-2), 121-8</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(89)80943-3>10.1016/0014-5793(89)80943-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579389809433>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Letters, 253(1-2), 121-8 
+          
+           doi: 10.1016/0014-5793(89)80943-3  -->
+        </p>
+      
+        <p>
+           
+            Criscuolo GR, Lelkes PI, Rotrosen D, and Oldfield EH 
+            (1989) 
+            <b>Cytosolic calcium changes in endothelial cells induced by a protein product of human gliomas containing vascular permeability factor activity.</b> 
+            <em>Journal of Neurosurgery, 71(6), 884-91</em> 
+            
+            <a href=http://thejns.org/doi/abs/10.3171/jns.1989.71.6.0884>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Neurosurgery, 71(6), 884-91 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lazarovici P, Levi BZ, Lelkes PI, Koizumi S, Fujita K, Matsuda Y, Ozato K, and Guroff Gordon 
+            (1989) 
+            <b>K-252a inhibits the increase in c-fos transcription and the increase in intracellular calcium produced by nerve growth factor in PC12 cells.</b> 
+            <em>Journal of Neuroscience Research, 23(1), 1-8</em> 
+            <a href=http://dx.doi.org/10.1002/jnr.490230102>10.1002/jnr.490230102</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1002/jnr.490230102/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Neuroscience Research, 23(1), 1-8 
+          
+           doi: 10.1002/jnr.490230102  -->
+        </p>
+      
+        <p>
+           
+            Mizrachi Y, Lelkes PI, Ornberg RL, Goping G, and Pollard HB 
+            (1989) 
+            <b>Specific adhesion between pheochromocytoma (PC12) cells and adrenal medullary endothelial cells in co-culture.</b> 
+            <em>Cell and tissue research, 256(2), 365-72</em> 
+            <a href=http://dx.doi.org/10.1007/BF00218894>10.1007/BF00218894</a> 
+            <a href=http://link.springer.com/article/10.1007/BF00218894>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Cell and tissue research, 256(2), 365-72 
+          
+           doi: 10.1007/BF00218894  -->
+        </p>
+      
+        <p>
+           
+            Fink D, Contreras ML, Lelkes PI, and Lazarovici P 
+            (1989) 
+            <b>Staphylococcus aureus a -toxin activates phospholipases and induces a calcium influx in PC12 cells.</b> 
+            <em>Cellular Signaling, 1(4), 387-93.</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Cellular Signaling, 1(4), 387-93. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Lazarovici P 
+            (1988) 
+            <b>Pardaxin induces aggregation but not fusion of phosphatidylserine vesicles.</b> 
+            <em>FEBS Letters, 230(1-2), 131-6.</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(88)80656-2>10.1016/0014-5793(88)80656-2</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579388806562>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Letters, 230(1-2), 131-6. 
+          
+           doi: 10.1016/0014-5793(88)80656-2  -->
+        </p>
+      
+        <p>
+           
+            Duling BR, Hogan R, Langielle R, Lelkes PI, Segal S, Vatner S, and Weigelt H 
+            (1987) 
+            <b>Vasomotor control: functional hyperemia and beyond.</b> 
+            <em>Federation Proc 46:251-263</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/3542588>Abstract</a> 
+            <a href=assets/Duling%20et%20al_FedProc_1987.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Federation Proc 46:251-263 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Pollard HB 
+            (1987) 
+            <b>Oligopeptide Inhibitors of metalloendoprotease activity inhibit catecholamine secretion from bovine adrenal chromaffin cells by modulating intracellular calcium homeostasis.</b> 
+            <em>J Biol Chem 262:15496-15505.</em> 
+            
+            <a href=http://www.jbc.org/content/262/32/15496.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biol Chem 262:15496-15505. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Stutzin A, Cabantchik Y, Lelkes PI, and Pollard HB 
+            (1987) 
+            <b>Synexin-mediated fusion of bovine chromaffin granule ghosts. Effect of pH.</b> 
+            <em>Biochim Biophys Acta 905:205-212.</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2736(87)90024-1>10.1016/0005-2736(87)90024-1</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005273687900241>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 905:205-212. 
+          
+           doi: 10.1016/0005-2736(87)90024-1  -->
+        </p>
+      
+        <p>
+           
+            Megnin F, Faustino PJ, Lyon RC, Lelkes PI, and Cohen JS 
+            (1987) 
+            <b>On the mechanism of selective retention of porphyrins and metalloporphyrins by cancer cells.</b> 
+            <em>Biochim Biophys Acta 929:173-181</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 929:173-181 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Lazarovici P 
+            (1987) 
+            <b>Pardaxin induces aggregation but not fusion of phosphatidylserine vesicles.</b> 
+            <em>FEBS Lett 230:131-136.</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(88)80656-2>10.1016/0014-5793(88)80656-2</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579388806562>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Lett 230:131-136. 
+          
+           doi: 10.1016/0014-5793(88)80656-2  -->
+        </p>
+      
+        <p>
+          
+
+           
+             
+            (1987) 
+            <strong>Liposome-mediated introduction of macromolecules into isolated bovine adrenal chromaffin cells, A critical evaluation of the technique and its biological implications</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Pollard HB, Burns AI, Stutzin A, Rojas E, Lelkes PI and Morita K 
+            (1987) 
+            <strong>Cytosolic proteins as intracellular mediators of calcium action during exocytosis</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Rosenheck K, and Lelkes PI 
+            (1987) 
+            <strong>Stimulus-secretion coupling</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Pollard HB 
+            (1987) 
+            <b>Oligopeptide inhibitors of metalloendoprotease activity inhibit catecholamine secretion from bovine adrenal chromaffin cells by modulating intracellular calcium homeostasis.</b> 
+            <em>Journal of Biological Chemistry, 262(32), 15496-505</em> 
+            
+            <a href=http://www.jbc.org/content/262/32/15496.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Biological Chemistry, 262(32), 15496-505 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Megnin F, Faustino PJ, Lyon RC, Lelkes PI, and Cohen JS 
+            (1987) 
+            <b>Studies on the mechanism of selective retention of porphyrins and metalloporphyrins by cancer cells.</b> 
+            <em>Biochimica et Biophysica Acta, Molecular Cell Research, 929(2), 173-81</em> 
+            <a href=http://dx.doi.org/10.1016/0167-4889(87)90173-X>10.1016/0167-4889(87)90173-X</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/016748898790173X>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochimica et Biophysica Acta, Molecular Cell Research, 929(2), 173-81 
+          
+           doi: 10.1016/0167-4889(87)90173-X  -->
+        </p>
+      
+        <p>
+           
+            Stutzin A, Cabantchik ZI, Lelkes PI, and Pollard HB 
+            (1987) 
+            <b>Synexin-mediated fusion of bovine chromaffin granule ghosts. Effect of pH.</b> 
+            <em>Biochimica et Biophysica Acta, Biomembranes, 905(1), 205-12</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2736(87)90024-1>10.1016/0005-2736(87)90024-1</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005273687900241>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochimica et Biophysica Acta, Biomembranes, 905(1), 205-12 
+          
+           doi: 10.1016/0005-2736(87)90024-1  -->
+        </p>
+      
+        <p>
+           
+            Duling BR, Hogan RD, Langille BL, Lelkes P, Segal SS, Vatner SF, Weigelt H, and Young MA 
+            (1987) 
+            <b>Vasomotor control: functional hyperemia and beyond.</b> 
+            <em>Federation proceedings, 46(2), 251-63.</em> 
+            
+            <a href=http://www.ncbi.nlm.nih.gov/pubmed/3542588>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Federation proceedings, 46(2), 251-63. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Friedman JE, Lelkes PI, Rosenheck K, and Oplatka A 
+            (1986) 
+            <b>Control of stimulus-secretion coupling in adrenal medullary chromaffin cells by microfilament specific macromolecules.</b> 
+            <em>J Biol Chem 261:5745-5750.</em> 
+            
+            <a href=http://www.jbc.org/content/261/13/5745.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biol Chem 261:5745-5750. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Sömjen G, Marikovsky Y, Lelkes PI, and Gilat T 
+            (1986) 
+            <b>Cholesterol-phospholipid vesicles in human bile: an ultrastructural study.</b> 
+            <em>Biochim Biophys Acta 879:14-21.</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2760(86)90260-2>10.1016/0005-2760(86)90260-2</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005276086902602>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 879:14-21. 
+          
+           doi: 10.1016/0005-2760(86)90260-2  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Friedman JE, Rosenheck K, and Oplatka A 
+            (1986) 
+            <b>Destabilization of actin filaments as a requirement for the secretion of catecholamines from permeabilized chromaffin cells.</b> 
+            <em>FEBS Lett, 308:375-383</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(86)81049-3>10.1016/0014-5793(86)81049-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579386810493>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Lett, 308:375-383 
+          
+           doi: 10.1016/0014-5793(86)81049-3  -->
+        </p>
+      
+        <p>
+           
+            Somjen GJ, Marikovsky Y, Lelkes PI, and Gilat T 
+            (1986) 
+            <b>Cholesterol-phospholipid vesicles in human bile: an ultrastructural study.</b> 
+            <em>Biochimica et Biophysica Acta, Lipids and Lipid Metabolism, 879(1), 14-21</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2760(86)90260-2>10.1016/0005-2760(86)90260-2</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005276086902602>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochimica et Biophysica Acta, Lipids and Lipid Metabolism, 879(1), 14-21 
+          
+           doi: 10.1016/0005-2760(86)90260-2  -->
+        </p>
+      
+        <p>
+           
+            Friedman JE, Lelkes PI, Rosenheck K, and Oplatka A 
+            (1986) 
+            <b>Control of stimulus-secretion coupling in adrenal medullary chromaffin cells by microfilament-specific macromolecules.</b> 
+            <em>Journal of Biological Chemistry, 261(13), 5745-50</em> 
+            
+            <a href=http://www.jbc.org/content/261/13/5745.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Biological Chemistry, 261(13), 5745-50 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Friedman JE, Rosenheck K, and Oplatka A 
+            (1986) 
+            <b>Destabilization of actin filaments as a requirement for the secretion of catecholamines from permeabilized chromaffin cells.</b> 
+            <em>FEBS Letters, 208(2), 357-63</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(86)81049-3>10.1016/0014-5793(86)81049-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579386810493>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Letters, 208(2), 357-63 
+          
+           doi: 10.1016/0014-5793(86)81049-3  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Friedman JE 
+            (1985) 
+            <b>Interactions of French-pressed liposomes with isolated bovine adrenal chromaffin cells. I. Characterization of the cell-liposome interactions.</b> 
+            <em>J Biol Chem 260:1796-1803</em> 
+            
+            <a href=http://www.jbc.org/content/260/3/1796.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Biol Chem 260:1796-1803 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Friedman JE, Lelkes PI, Lavie E, Rosenheck K, Schneeweiss F, and Schneider AS 
+            (1985) 
+            <b>Membrane potential and catecholamine secretion by bovine adrenal chromaffin cells: Use of tetraphenyl phosphonium distribution and carboxycyanine dye fluorescence.</b> 
+            <em>J Neurochem 44: 1391-1402</em> 
+            <a href=http://dx.doi.org/10.1111/j.1471-4159.1985.tb08775.x>10.1111/j.1471-4159.1985.tb08775.x</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.1985.tb08775.x/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Neurochem 44: 1391-1402 
+          
+           doi: 10.1111/j.1471-4159.1985.tb08775.x  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Friedman JE, and Rosenheck K 
+            (1985) 
+            <b>Direct fluorometric assay of catecholamine secretion form isolated bovine adrenal chromaffin cells.</b> 
+            <em>J Neurosci Meth 13:249-255.</em> 
+            <a href=http://dx.doi.org/10.1016/0165-0270(85)90073-1>10.1016/0165-0270(85)90073-1</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0165027085900731>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Neurosci Meth 13:249-255. 
+          
+           doi: 10.1016/0165-0270(85)90073-1  -->
+        </p>
+      
+        <p>
+           
+            Braun G, Lelkes PI, and Nir S 
+            (1985) 
+            <b>Effect of cholesterol on Ca++-induced aggregation on fusion of sonicated phosphatidylserine/cholesterol vesicles.</b> 
+            <em>Biochim Biophys Acta 812:688-694.</em> 
+            
+            
+            <a href=assets/Braun%20et%20al%20_BBA%201985.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 812:688-694. 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Pollard HB, Ornberg R, Levine M, Brocklehurst K, Forsberg E, Lelkes PI, and Morita K 
+            (1985) 
+            <b>Regulation of secretion from adrenal chromaffin cells.</b> 
+            <em>Physiologist 28:247 254</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Physiologist 28:247 254 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Pollard HB, Ornberg R, Levine M, Heldman E, Morita K, Kelner K, Lelkes PI, Brocklehurst K, Forsberg E, Duong L, Levine R and Youdim M 
+            (1985) 
+            <strong>Hormone secretion by exocytosis: with emphasis on information from the chromaffin cell system</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Pollard HB, Ornberg R, Levine M, Heldman E, Morita K, Lelkes PI, and Heldman J 
+            (1985) 
+            <strong>Ultrastructural and biochemical aspects of biosynthesis and secretion of hormones</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Friedman JE, and Rosenheck K 
+            (1985) 
+            <b>Direct fluorometric assay of catecholamine secretion from isolated bovine adrenal chromaffin cells.</b> 
+            <em>Journal of Neuroscience Methods, 13(3-4), 249-55</em> 
+            <a href=http://dx.doi.org/10.1016/0165-0270(85)90073-1>10.1016/0165-0270(85)90073-1</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0165027085900731>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Neuroscience Methods, 13(3-4), 249-55 
+          
+           doi: 10.1016/0165-0270(85)90073-1  -->
+        </p>
+      
+        <p>
+           
+            Braun G, Lelkes PI, and Nir S 
+            (1985) 
+            <b>Effect of cholesterol on calcium-induced aggregation and fusion of sonicated phosphatidylserine/cholesterol vesicles.</b> 
+            <em>Biochimica et Biophysica Acta, Biomembranes, 812(3), 688-94</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Biochimica et Biophysica Acta, Biomembranes, 812(3), 688-94 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Pollard HB, Ornberg R, Levine M, Kelner K, Morita K, Levine R, Forsberg E, Brocklehurst KW, Duong L, and Lelkes PI 
+            (1985) 
+            <b>+ Hormone secretion by exocytosis with emphasis on information from the chromaffin cell system.</b> 
+            <em>Vitamins and Hormones, 42 109-96</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Vitamins and Hormones, 42 109-96 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Friedman JE 
+            (1985) 
+            <b>Interaction of French-pressed liposomes with isolated bovine adrenal chromaffin cells. Characterization of the cell-liposome interactions.</b> 
+            <em>Journal of Biological Chemistry, 260(3), 1796-803</em> 
+            
+            <a href=http://www.jbc.org/content/260/3/1796.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Biological Chemistry, 260(3), 1796-803 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Friedman JE, Lelkes PI, Lavie E, Rosenheck K, Schneeweiss F, and Schneider AS 
+            (1985) 
+            <b>Membrane potential and catecholamine secretion by bovine adrenal chromaffin cells: use of tetraphenylphosphonium distribution and carbocyanine dye fluorescence.</b> 
+            <em>Journal of Neurochemistry, 44(5), 1391-402</em> 
+            <a href=http://dx.doi.org/10.1111/j.1471-4159.1985.tb08775.x>10.1111/j.1471-4159.1985.tb08775.x</a> 
+            <a href=http://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.1985.tb08775.x/full>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Journal of Neurochemistry, 44(5), 1391-402 
+          
+           doi: 10.1111/j.1471-4159.1985.tb08775.x  -->
+        </p>
+      
+        <p>
+           
+            Pollard HB, Ornberg R, Levine M, Brocklehurst K, Forsberg E, Lelkes PI, and Morita K 
+            (1985) 
+            <b>Regulation of secretion from adrenal chromaffin cells.</b> 
+            <em>Physiologist, 28(4)</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Physiologist, 28(4) 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Klein L, Marikovsky J, and Eisenbach, M 
+            (1984) 
+            <b>Liposome mediated transfer of macromolecules into flagellated cell envelopes from bacteria.</b> 
+            <em>Biochemistry 23:563-568</em> 
+            <a href=http://dx.doi.org/10.1021/bi00298a026>10.1021/bi00298a026</a> 
+            <a href=http://pubs.acs.org/doi/abs/10.1021/bi00298a026>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochemistry 23:563-568 
+          
+           doi: 10.1021/bi00298a026  -->
+        </p>
+      
+        <p>
+           
+            Bental M, Lelkes PI, Scholma J, Hoekstra D, and Wilschut J 
+            (1984) 
+            <b>Ca++ independent, protein-mediated fusion of chromaffin granule ghosts with liposomes.</b> 
+            <em>Biochim Biophys Acta 774:296-300</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2736(84)90305-5>10.1016/0005-2736(84)90305-5</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005273684903055>Abstract</a> 
+            <a href=assets/Bental%20et%20al_BBA1984.pdf>PDF</a> 
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 774:296-300 
+          
+           doi: 10.1016/0005-2736(84)90305-5  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Friedmann P 
+            (1984) 
+            <b>Stabilization of large multimellar liposomes by human serum in vitro.</b> 
+            <em>Biochim Biophys Acta 775:395-401.</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2736(84)90196-2>10.1016/0005-2736(84)90196-2</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005273684901962>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 775:395-401. 
+          
+           doi: 10.1016/0005-2736(84)90196-2  -->
+        </p>
+      
+        <p>
+          
+
+           
+             
+            (1984) 
+            <strong>Methodological aspects dealing with stability measurements of liposomes in vitro using the carboxyfluorescein   - assay</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+             
+            (1984) 
+            <strong>The use of French-pressed vesicles for efficient incorporation of bioactive macromolecules and as drug carriers in vitro and in vivo</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Bental M, Lelkes PI, Scholma J, Hoekstra D, and Wilschut J 
+            (1984) 
+            <b>Calcium-independent, protein-mediated fusion of chromaffin granule ghosts with liposomes.</b> 
+            <em>Biochimica et Biophysica Acta, Biomembranes, 774(2)</em> 
+            
+            
+            
+          
+
+          
+      
+          <!-- . Biochimica et Biophysica Acta, Biomembranes, 774(2) 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Naquira D, Friedman JE, Rosenheck K, and Schneider A 
+            (1982) 
+            <strong>Plasma membrane vesicles from bovine adrenal chromaffin cells: Characterization and fusion with chromaffin granules</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Friedman JE, and Neeman M 
+            (1981) 
+            <strong>French-pressed liposomes as drug carrier systems</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Lelkes PI, Bach D, and Miller IR 
+            (1980) 
+            <strong>Interactions of auxin (IAA) with lipid membranes</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+          
+
+           
+            Steudle E, Lelkes PI, and Zimmermann U 
+            (1977) 
+            <strong>Volume and pressure effects on the potassium fluxes of Valonia utricularis</strong> 
+          
+      
+          <!-- 
+          
+           -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Goldenberg D, Gliozzi A, DeRosa M, and Miller IR 
+            (1983) 
+            <b>Vesicles from mixtures of bipolar archaebacterial lipid with egg phosphatidylcholine.</b> 
+            <em>Biochim Biophys Acta 732:714-718.</em> 
+            <a href=http://dx.doi.org/10.1016/0005-2736(83)90252-3>10.1016/0005-2736(83)90252-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0005273683902523>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 732:714-718. 
+          
+           doi: 10.1016/0005-2736(83)90252-3  -->
+        </p>
+      
+        <p>
+           
+            Gurari-Rotman D, and Lelkes PI 
+            (1982) 
+            <b>Encapsulation of human fibroblast interferon activity into liposomes.</b> 
+            <em>Biochem Biophys Res Commun 107:1363</em> 
+            <a href=http://dx.doi.org/10.1016/0006-291X(82)91680-1>10.1016/0006-291X(82)91680-1</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0006291X82916801>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochem Biophys Res Commun 107:1363 
+          
+           doi: 10.1016/0006-291X(82)91680-1  -->
+        </p>
+      
+        <p>
+           
+            Yatvin MB, and Lelkes PI 
+            (1982) 
+            <b>Clinical prospects for liposomes.</b> 
+            <em>Med Phys 9:149-175</em> 
+            <a href=http://dx.doi.org/10.1118/1.595079>10.1118/1.595079</a> 
+            <a href=http://scitation.aip.org/content/aapm/journal/medphys/9/2/10.1118/1.595079>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Med Phys 9:149-175 
+          
+           doi: 10.1118/1.595079  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Tandeter HB 
+            (1982) 
+            <b>Studies on the methodology of the carboxyfluorescein assay and on the mechanism of liposome stabilization by red blood cells in vitro.</b> 
+            <em>Biochim Biophys Acta 716:410-419</em> 
+            <a href=http://dx.doi.org/10.1016/0304-4165(82)90034-4>10.1016/0304-4165(82)90034-4</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0304416582900344>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochim Biophys Acta 716:410-419 
+          
+           doi: 10.1016/0304-4165(82)90034-4  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, and Miller IR 
+            (1980) 
+            <b>Perturbations of membrane structure by optical probes. I. Location and structural sensitivity of Merocyanine 540 bound to phospholipid membranes.</b> 
+            <em>J Membr Biol 52:1-15</em> 
+            <a href=http://dx.doi.org/10.1007/BF01869001>10.1007/BF01869001</a> 
+            <a href=http://link.springer.com/article/10.1007/BF01869001>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Membr Biol 52:1-15 
+          
+           doi: 10.1007/BF01869001  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Bach D, and Miller IR 
+            (1980) 
+            <b>Perturbations of membrane structure by optical probes. II. Differential scanning calorimetry of dipalmitoyl-lecithin and its analogs interacting with Merocyanine 540.</b> 
+            <em>J Membr Biol 54:141-148</em> 
+            <a href=http://dx.doi.org/10.1007/BF01940567>10.1007/BF01940567</a> 
+            <a href=http://link.springer.com/article/10.1007/BF01940567>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . J Membr Biol 54:141-148 
+          
+           doi: 10.1007/BF01940567  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Lavie E, Naquira D, Schneeweiss F, Schneider A, and Rosenheck E 
+            (1980) 
+            <b>Acetylcholine induced in vitro fusion between cell membrane vesicles and chromaffin granules from the bovine adrenal medulla.</b> 
+            <em>FEBS Lett 115:129-133</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(80)80742-3>10.1016/0014-5793(80)80742-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0014579380807423>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Lett 115:129-133 
+          
+           doi: 10.1016/0014-5793(80)80742-3  -->
+        </p>
+      
+        <p>
+           
+            Friedman JE, Lelkes PI, Rosenheck K, and Oplatka A 
+            (1980) 
+            <b>The possible implication of membrane-associated actin in stimulation-secretion coupling in adrenal chromaffin cells.</b> 
+            <em>Biochem Biophys Res Commun 96:1717-1723</em> 
+            <a href=http://dx.doi.org/10.1016/0006-291X(80)91372-8>10.1016/0006-291X(80)91372-8</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0006291X80913728>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochem Biophys Res Commun 96:1717-1723 
+          
+           doi: 10.1016/0006-291X(80)91372-8  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI, Kapitkovsky A, Eibl H, and Miller IR 
+            (1979) 
+            <b>Headgroup dependent modulation of phase transition in dipalmitoyl lecithin analogs.</b> 
+            <em>FEBS Lett 103:101-105</em> 
+            <a href=http://dx.doi.org/10.1016/0014-5793(79)81277-6>10.1016/0014-5793(79)81277-6</a> 
+            <a href=http://www.researchgate.net/publication/247011175_Headgroup  -    dependent_modulation_of_phase_transition_in_dipalmitoyl_lecithin_analogsA_fluorescence_depolarization_study/file/72e7e528c1ae4066eb.pdf>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . FEBS Lett 103:101-105 
+          
+           doi: 10.1016/0014-5793(79)81277-6  -->
+        </p>
+      
+        <p>
+           
+            Lelkes PI 
+            (1979) 
+            <b>Potential dependent rigidity changes in lipid membrane vesicles.</b> 
+            <em>Biochem Biophys Res Commun 90:656-662</em> 
+            <a href=http://dx.doi.org/10.1016/0006-291X(79)91285-3>10.1016/0006-291X(79)91285-3</a> 
+            <a href=http://www.sciencedirect.com/science/article/pii/0006291X79912853>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Biochem Biophys Res Commun 90:656-662 
+          
+           doi: 10.1016/0006-291X(79)91285-3  -->
+        </p>
+      
+        <p>
+           
+            Zimmermann U, Steudle E, and Lelkes PI 
+            (1976) 
+            <b>Turgor pressure regulation in Valonia utricularis: Effect of cell wall elasticity and auxin.</b> 
+            <em>Plant Physiol 58:608-613.</em> 
+            <a href=http://dx.doi.org/10.1104/pp.58.5.608>10.1104/pp.58.5.608</a> 
+            <a href=http://www.plantphysiol.org/content/58/5/608.short>Abstract</a> 
+            
+          
+
+          
+      
+          <!-- . Plant Physiol 58:608-613. 
+          
+           doi: 10.1104/pp.58.5.608  -->
+        </p>
+      
+    </div>
+  </div>
+</div>
+
+
 
 </section>
 
-<hr>
+      <hr>
 
-<footer>
-  <p>Bioengineering Department, Temple University</p>
-</footer>
-      
-</div>
-
+      <footer>
+        <p>Bioengineering Department, Temple University</p>
+      </footer>
+    </div>
 <!--     </div> --> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  </body>
 </html>
