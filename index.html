@@ -33,7 +33,7 @@ The laboratories of the cellular tissue-engineering and regenerative medicine gr
   {% for presentation in site.data.labcalendar cols:1 %}
     {% capture presendate %}{{presentation.date | date: '%s'}}{% endcapture %}
     {% if nowdate <= presendate %}
-    <tr><td>{{presentation.date}}</td>
+    <tr><td>{{presentation.date | date: '%s' }}}}</td>
         <td>{{presentation.who}}</td>
     </tr>
     {% endif %}
