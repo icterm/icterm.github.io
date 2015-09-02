@@ -3,3 +3,5 @@ markdown: kramdown
 collections:
   - people
 #    output: true
+
+baseurl: "/new/"
